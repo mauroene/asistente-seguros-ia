@@ -52,3 +52,13 @@ Los resultados todavía no son suficientes para considerar el prototipo apto par
 - `results/`: métricas, predicciones, errores y matrices de confusión.
 
 La documentación de esta carpeta complementa los resultados experimentales y permite dar seguimiento a las decisiones técnicas del proyecto.
+
+## Paquete de evidencias para ejecución sin GPU
+
+El archivo [evidencias_reporte_20261010T200713130418Z.zip](evidencias_reporte_20261010T200713130418Z.zip) conserva los resultados de la evaluación original del primer Colab, los datos y la configuración utilizados, así como los experimentos de desarrollo y los archivos de auditoría.
+
+Cuando el segundo notebook no dispone de GPU, solicita este paquete en la sección 4.3, «Carga condicional de evidencias anteriores».
+
+Descarga el ZIP y súbelo completo, sin descomprimir, cuando se solicite. Debe utilizarse junto con el paquete de insumos disponible en `data/`.
+
+Esta modalidad recupera y verifica resultados anteriores; no ejecuta nuevamente los modelos. Cuando se realiza una nueva evaluación con GPU, no es necesario cargar este paquete de evidencias.
