@@ -116,4 +116,32 @@ En conclusión, la implementación permitió demostrar la viabilidad técnica de
 
 ## Reproducibilidad
 
-Las instrucciones detalladas para reproducir los experimentos se incorporarán conforme avance la implementación del prototipo.
+El proyecto se desarrolló mediante dos notebooks de Google Colab que permiten documentar la implementación, evaluación y verificación de los modelos preentrenados.
+
+### Requisitos
+
+- Python y acceso a Google Colab.
+- Bibliotecas especificadas en `requirements.txt`.
+- Conexión a Internet para descargar los modelos de Hugging Face.
+- GPU recomendada para ejecutar nuevamente las inferencias.
+
+### Pasos de ejecución
+
+1. Descargar o clonar el repositorio de GitHub.
+2. Abrir Google Colab y cargar el primer notebook de la carpeta `notebooks/`.
+3. Instalar las dependencias necesarias y preparar el entorno de ejecución.
+4. Cargar los datos de evaluación y los modelos preentrenados.
+5. Ejecutar las celdas del primer notebook para realizar las inferencias y generar los resultados.
+6. Guardar los archivos de datos, configuración y resultados generados.
+7. Abrir el segundo notebook y proporcionar los archivos de soporte correspondientes.
+8. Ejecutar las celdas de verificación para comprobar la integridad de los archivos y recuperar las métricas obtenidas.
+
+### Consideraciones de ejecución
+
+La evaluación original se realizó utilizando una GPU NVIDIA Tesla T4.
+
+El segundo notebook también permite recuperar y verificar resultados previamente generados sin disponer de una GPU. Esta modalidad no ejecuta nuevamente las inferencias y, por tanto, no debe confundirse con una nueva evaluación de los modelos.
+
+Para reproducir completamente los experimentos es necesario disponer de los datos preparados, los notebooks y los archivos de configuración correspondientes.
+
+Los resultados reportados corresponden a una evaluación experimental de un prototipo académico y no constituyen una validación para su uso en producción.
