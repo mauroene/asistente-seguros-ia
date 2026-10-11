@@ -137,6 +137,15 @@ El proyecto se desarrolló mediante dos notebooks de Google Colab que permiten d
 7. Abrir el segundo notebook y proporcionar los archivos de soporte correspondientes.
 8. Ejecutar las celdas de verificación para comprobar la integridad de los archivos y recuperar las métricas obtenidas.
 
+### Insumos para el segundo notebook
+
+El segundo notebook solicita el archivo `INSUMOS_COLAB_2_COMPARACION_MODELOS.zip`, generado al finalizar el primero. Este paquete contiene las consultas de desarrollo y prueba, la configuración experimental y los archivos de trazabilidad y auditoría.
+
+- **Con GPU:** permite realizar una nueva evaluación de los tres modelos utilizando los datos preparados.
+- **Sin GPU:** se requiere también el paquete de evidencias de la evaluación original, solicitado por el notebook, para recuperar y verificar los resultados sin repetir la inferencia.
+
+Los archivos publicados por separado en `data/`, `results/` y `docs/` permiten consultar los datos y resultados, pero no sustituyen directamente los paquetes ZIP solicitados por el segundo notebook.
+
 ### Consideraciones de ejecución
 
 La evaluación original se realizó utilizando una GPU NVIDIA Tesla T4.
