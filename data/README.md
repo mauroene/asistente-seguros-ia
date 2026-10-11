@@ -40,3 +40,12 @@ El conjunto se dividió en:
 
 Los procedimientos de preparación y evaluación se encuentran
 documentados en los notebooks de la carpeta `notebooks/`.
+
+## Paquete de entrada para el segundo notebook
+
+El archivo [INSUMOS_COLAB_2_COMPARACION_MODELOS.zip](INSUMOS_COLAB_2_COMPARACION_MODELOS.zip) reúne los datos preparados, la configuración experimental, la trazabilidad y la auditoría requeridos por el segundo notebook.
+
+Descarga el ZIP y súbelo completo, sin descomprimir, cuando el notebook lo solicite.
+
+- **Con GPU:** permite ejecutar una nueva evaluación de los tres modelos.
+- **Sin GPU:** se utiliza junto con el paquete de evidencias de la evaluación original para recuperar y verificar los resultados, sin repetir la inferencia.
