@@ -82,7 +82,21 @@ La comparación consideró el desempeño de clasificación y la eficiencia de in
 
 ## Resultados
 
-Los resultados se incorporarán después de ejecutar los experimentos y obtener las métricas correspondientes.
+La evaluación final se realizó con 240 consultas en español sobre seguros de vida, distribuidas en seis categorías de intención (40 consultas por categoría).
+
+Se utilizaron las métricas accuracy, precisión macro, recall macro y F1-score macro para comparar la calidad de clasificación. También se midió el tiempo promedio de inferencia por consulta.
+
+| Modelo | Accuracy | Precisión macro | Recall macro | F1-score macro | Tiempo por consulta |
+|---|---:|---:|---:|---:|---:|
+| MiniLMv2 | 0.4417 | 0.4116 | 0.4417 | 0.4002 | 0.0772 s |
+| mDeBERTa-v3-base | 0.3125 | 0.5596 | 0.3125 | 0.2893 | 0.1421 s |
+| XLM-RoBERTa-large | 0.6583 | 0.7460 | 0.6583 | 0.6492 | 0.1108 s |
+
+XLM-RoBERTa-large obtuvo el mejor desempeño general, con un F1-score macro de 0.6492 y una exactitud de 65.83 %.
+
+MiniLMv2 fue el modelo más rápido, con un tiempo promedio de 0.0772 segundos por consulta.
+
+Aunque XLM-RoBERTa-large presentó los mejores resultados, su desempeño todavía es insuficiente para utilizarlo en producción sin mejoras y validaciones adicionales.
 
 ## Conclusiones
 
