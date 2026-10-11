@@ -38,7 +38,7 @@ asistente-seguros-ia/
 ├── docs/          # Documentación técnica y análisis
 ├── notebooks/     # Notebooks de Google Colab
 ├── results/       # Resultados y métricas de evaluación
-├── src/           # Scripts y módulos reutilizables
+├── src/           # Documentación para futura modularización del código
 ├── .gitignore
 ├── README.md
 └── requirements.txt
@@ -56,6 +56,7 @@ El desarrollo contempla las siguientes etapas:
 6. Medición del tiempo de inferencia.
 7. Comparación de los modelos.
 8. Selección y justificación del modelo más adecuado.
+9. Preparación y distribución de 300 consultas en español, divididas en 60 para desarrollo y 240 para evaluación final (40 por categoría).
 
 ## Modelos evaluados
 
