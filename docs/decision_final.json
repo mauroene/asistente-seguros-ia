@@ -1,0 +1,21 @@
+{
+  "modelo_seleccionado": "XLM-RoBERTa-large",
+  "identificador": "joeddav/xlm-roberta-large-xnli",
+  "criterio_principal": "mayor F1 macro sobre prueba",
+  "f1_macro": 0.6491602896910346,
+  "exactitud": 0.6583333333333333,
+  "aciertos": 158,
+  "errores": 82,
+  "consultas_prueba": 240,
+  "modelo_mas_rapido": "MiniLMv2 multilingüe",
+  "procedencia": {
+    "origen": "evaluacion_previa_primer_colab",
+    "ejecutada_en_esta_sesion": false,
+    "version_evaluacion": "20261010T200128828138Z",
+    "version_dataset": "20261010T195212647311Z",
+    "dispositivo_evaluacion": "Tesla T4",
+    "archivo_respaldo": "evidencias_reporte_20261010T200713130418Z.zip"
+  },
+  "alcance": "Recomendación para el prototipo con la configuración evaluada.",
+  "estado_operativo": "Requiere validación adicional antes de producción."
+}
