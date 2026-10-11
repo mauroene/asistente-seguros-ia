@@ -1,0 +1,29 @@
+{
+  "modelos": {
+    "MiniLMv2 multilingüe": "MoritzLaurer/multilingual-MiniLMv2-L6-mnli-xnli",
+    "mDeBERTa-v3-base": "MoritzLaurer/mDeBERTa-v3-base-mnli-xnli",
+    "XLM-RoBERTa-large": "joeddav/xlm-roberta-large-xnli"
+  },
+  "configuracion_prueba": {
+    "descripciones": {
+      "LIFE_INSURANCE": "información general o consulta de información sobre un seguro de vida",
+      "COVERAGE": "consulta de coberturas, exclusiones o modificación de la cobertura del seguro",
+      "QUOTE": "consulta de tarifas, estimación de costo o solicitud de cotización del seguro",
+      "PAYMENT": "realización y consulta de pagos del seguro, programación, métodos y problemas de pago",
+      "ENROLLMENT": "comparación, contratación, renovación o cancelación de pólizas, incluidos requisitos y cargos de terminación",
+      "CONTACT": "contacto con atención al cliente, un representante, la aseguradora o una persona"
+    },
+    "plantilla": "Esta consulta trata sobre {}.",
+    "multi_label": false,
+    "batch_size": 1,
+    "repeticiones": 3,
+    "precision": "float32"
+  },
+  "decision_desarrollo": {
+    "criterio_principal": "F1 macro",
+    "configuracion_comun": "inicial",
+    "candidato_preliminar": "XLM-RoBERTa-large",
+    "motivo": "Mayor F1 macro observado sobre desarrollo: 0.6275. La alternativa no mejoró de forma común los tres modelos.",
+    "estado": "selección final pendiente de evaluación sobre prueba"
+  }
+}
