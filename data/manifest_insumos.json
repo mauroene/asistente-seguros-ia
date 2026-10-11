@@ -1,0 +1,41 @@
+{
+  "finalidad": "Entrada del segundo Colab de comparación de modelos",
+  "version_dataset_utc": "20261010T195212647311Z",
+  "fecha_empaquetado_utc": "20261010T201851393107Z",
+  "consultas_desarrollo": 60,
+  "consultas_prueba": 240,
+  "categorias": [
+    "LIFE_INSURANCE",
+    "COVERAGE",
+    "QUOTE",
+    "PAYMENT",
+    "ENROLLMENT",
+    "CONTACT"
+  ],
+  "archivos": {
+    "dataset_desarrollo.csv": {
+      "contenido": "60 consultas validadas de desarrollo.",
+      "sha256": "f07b0969b34b94d5cb326b911bb027d9ebece5b30bd6a740f0f140fe5454308a"
+    },
+    "dataset_prueba.csv": {
+      "contenido": "240 consultas validadas de prueba.",
+      "sha256": "a826f1bbd5bb29fa610d270d85c2445b3555fd335dcc116c3fb6f36d78e7aeaa"
+    },
+    "configuracion_para_prueba.json": {
+      "contenido": "Identificadores de los tres modelos y configuración fijada.",
+      "sha256": "d370dc1648fc72c758ea5385d1b18815c0ece4a528d7b57ecbe856b1cccd9005"
+    },
+    "dataset_completo_trazabilidad.csv": {
+      "contenido": "300 registros con originales, traducciones y validaciones.",
+      "sha256": "6e534038690ef93d4b4457addc4f87ffd7113d18fab5f2dbdbce7fe5fd18d56f"
+    },
+    "registros_retirados.csv": {
+      "contenido": "Auditoría de los 48 registros reemplazados.",
+      "sha256": "7158762f07f4a6986761cdaf7dcc49169d473889ecc5faeb932efb00c783592f"
+    },
+    "distribucion_dataset.csv": {
+      "contenido": "Cantidades por categoría y conjunto.",
+      "sha256": "226af8a8e4d8b142d2bef54a60a5725cdf8737ff009241b17dee7146c34fc14d"
+    }
+  }
+}
