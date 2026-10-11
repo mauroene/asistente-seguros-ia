@@ -59,7 +59,26 @@ El desarrollo contempla las siguientes etapas:
 
 ## Modelos evaluados
 
-Esta sección se completará una vez realizada la selección e implementación de los modelos.
+Se implementaron y compararon tres modelos preentrenados de Hugging Face para clasificar consultas en español relacionadas con seguros de vida.
+
+| Modelo | Identificador en Hugging Face | Parámetros aproximados |
+|---|---|---|
+| MiniLMv2 | `MoritzLaurer/multilingual-MiniLMv2-L6-mnli-xnli` | 100 millones |
+| mDeBERTa-v3-base | `MoritzLaurer/mDeBERTa-v3-base-mnli-xnli` | 300 millones |
+| XLM-RoBERTa-large | `joeddav/xlm-roberta-large-xnli` | 600 millones |
+
+Los tres modelos se utilizaron mediante clasificación zero-shot, sin realizar un ajuste fino (fine-tuning).
+
+Se definieron seis categorías de intención para las consultas:
+
+1. `LIFE_INSURANCE`: información general sobre seguros de vida.
+2. `COVERAGE`: coberturas y exclusiones.
+3. `QUOTE`: cotizaciones.
+4. `PAYMENT`: pagos.
+5. `ENROLLMENT`: contratación, renovación y cancelación.
+6. `CONTACT`: atención y contacto con un asesor.
+
+La comparación consideró el desempeño de clasificación y la eficiencia de inferencia de cada modelo.
 
 ## Resultados
 
