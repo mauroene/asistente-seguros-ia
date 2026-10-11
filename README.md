@@ -100,7 +100,19 @@ Aunque XLM-RoBERTa-large presentó los mejores resultados, su desempeño todaví
 
 ## Conclusiones
 
-Las conclusiones se documentarán al finalizar la evaluación comparativa de los modelos.
+La evaluación comparativa permitió identificar diferencias importantes en el desempeño y la eficiencia de los tres modelos preentrenados de Hugging Face.
+
+XLM-RoBERTa-large obtuvo el mejor resultado general, con un F1-score macro de 0.6492 y una exactitud de 65.83 %, por lo que se seleccionó como la alternativa más adecuada para continuar desarrollando el prototipo de clasificación de consultas sobre seguros de vida.
+
+MiniLMv2 presentó el menor tiempo de inferencia, con 0.0772 segundos por consulta, lo que lo convierte en una alternativa interesante para escenarios donde la velocidad de respuesta sea prioritaria.
+
+Por su parte, mDeBERTa-v3-base obtuvo resultados inferiores en la evaluación general, por lo que no se seleccionó como modelo principal.
+
+Los resultados también evidenciaron limitaciones importantes, especialmente en las categorías PAYMENT y ENROLLMENT. Por ello, el modelo seleccionado todavía no reúne las condiciones necesarias para implementarse en un entorno de producción.
+
+Como trabajo futuro, se propone ampliar y mejorar el conjunto de datos, analizar los errores de clasificación, optimizar las descripciones de las categorías y evaluar técnicas de ajuste fino.
+
+En conclusión, la implementación permitió demostrar la viabilidad técnica de utilizar modelos preentrenados para identificar intenciones en consultas relacionadas con seguros de vida, aunque se requieren mejoras adicionales para alcanzar un desempeño confiable en aplicaciones reales.
 
 ## Reproducibilidad
 
