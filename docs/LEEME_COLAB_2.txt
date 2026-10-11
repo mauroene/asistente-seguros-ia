@@ -1,0 +1,50 @@
+INSUMOS PARA EL SEGUNDO COLAB
+========================================
+
+ARCHIVO DE ENTRADA
+INSUMOS_COLAB_2_COMPARACION_MODELOS.zip
+
+PASOS EN EL SEGUNDO COLAB
+1. Configurar GPU e instalar las dependencias necesarias.
+2. Subir este ZIP y descomprimirlo en /content/insumos_colab_2.
+3. Verificar los archivos con manifest_insumos.json.
+4. Cargar dataset_desarrollo.csv y dataset_prueba.csv.
+5. Recuperar los modelos y parámetros desde
+   configuracion_para_prueba.json.
+6. Ejecutar la comparación y guardar sus resultados.
+
+ARCHIVOS PRINCIPALES
+dataset_desarrollo.csv:
+  60 consultas; 10 por categoría.
+
+dataset_prueba.csv:
+  240 consultas; 40 por categoría.
+
+Ambos datasets contienen:
+  id_consulta: identificador del registro.
+  consulta_es: consulta traducida al español.
+  categoria_referencia: etiqueta validada para evaluar.
+
+configuracion_para_prueba.json:
+  Identificadores de los tres modelos, descripciones y parámetros.
+  La decisión de desarrollo es preliminar; no es una nueva evaluación.
+
+ARCHIVOS DE TRAZABILIDAD
+dataset_completo_trazabilidad.csv:
+  300 registros con originales, traducciones, conjuntos y validaciones.
+
+registros_retirados.csv:
+  Auditoría de 48 registros reemplazados; no utilizar para evaluar.
+
+distribucion_dataset.csv:
+  Cantidades por categoría y conjunto.
+
+manifest_insumos.json:
+  Versión del dataset y huellas SHA-256 de los archivos.
+
+ALCANCE
+No es necesario ejecutar el primer Colab para usar estos insumos.
+El primer notebook se conserva como evidencia del procedimiento.
+Los pesos de los modelos no están incluidos.
+Los resultados de los experimentos anteriores están en los respaldos
+de evidencias, separados de este paquete de entrada.
