@@ -1,0 +1,83 @@
+﻿id_consulta,consulta_es,categoria_referencia,categoria_predicha,puntuacion,acierto
+CONS_0061,"Quisiera saber sobre mi cobertura, ¿dónde puedo encontrar más información?",COVERAGE,LIFE_INSURANCE,0.9334999322891236,False
+CONS_0063,"Tengo que consultar mi cobertura, ¿me pueden ayudar?",COVERAGE,LIFE_INSURANCE,0.6111258864402771,False
+CONS_0067,"Quisiera saber sobre la cobertura de mi póliza de seguro de vida, ¿cómo puedo obtener más información?",COVERAGE,LIFE_INSURANCE,0.9048157930374146,False
+CONS_0070,"Quisiera consultar la cobertura de mi póliza de seguro de vida, ¿dónde puedo hacerlo?",COVERAGE,LIFE_INSURANCE,0.8476568460464478,False
+CONS_0073,"Quisiera saber sobre mi cobertura, ¿podrías conseguir información?",COVERAGE,LIFE_INSURANCE,0.8569340109825134,False
+CONS_0075,¿Puedes ayudarme a consultar la cobertura de mi póliza de seguro?,COVERAGE,LIFE_INSURANCE,0.666388213634491,False
+CONS_0082,¿Es posible consultar mi cobertura?,COVERAGE,LIFE_INSURANCE,0.7430379986763,False
+CONS_0083,Quiero ayuda para consultar la cobertura de mi póliza de seguro.,COVERAGE,LIFE_INSURANCE,0.6012763381004333,False
+CONS_0086,"Quiero consultar la cobertura de mi póliza de seguro, ¿dónde puedo hacerlo?",COVERAGE,LIFE_INSURANCE,0.8224448561668396,False
+CONS_0087,"Tengo que consultar mi cobertura, necesito ayuda.",COVERAGE,LIFE_INSURANCE,0.6466076970100403,False
+CONS_0088,"Quisiera información sobre la cobertura de mi póliza de seguro de vida, ¿cómo puedo encontrarla?",COVERAGE,LIFE_INSURANCE,0.8777408599853516,False
+CONS_0090,¿Sería posible consultar la cobertura de mi póliza de seguro?,COVERAGE,LIFE_INSURANCE,0.6370899081230164,False
+CONS_0092,"Busco información sobre la cobertura de mi póliza de seguro, ¿puedes ayudarme?",COVERAGE,LIFE_INSURANCE,0.8299503922462463,False
+CONS_0094,"Tengo que consultar la cobertura de mi póliza de seguro, necesito ayuda.",COVERAGE,LIFE_INSURANCE,0.6428846120834351,False
+CONS_0097,¿Dónde puedo obtener información sobre mi cobertura?,COVERAGE,LIFE_INSURANCE,0.8377749919891357,False
+CONS_0100,"Quiero saber sobre la cobertura de mi póliza de seguro, ¿dónde puedo encontrar más información?",COVERAGE,LIFE_INSURANCE,0.918193221092224,False
+CONS_0112,"Quiero consultar las tarifas del seguro de vida, necesito ayuda.",QUOTE,LIFE_INSURANCE,0.5568886399269104,False
+CONS_0113,"Quiero saber más sobre las tarifas, ¿puedes conseguir información?",QUOTE,LIFE_INSURANCE,0.7579367756843567,False
+CONS_0114,¿Puedes mostrarme las tarifas?,QUOTE,CONTACT,0.3768271207809448,False
+CONS_0116,"Quiero saber más sobre las tarifas del seguro de vida, ¿puedes conseguir información?",QUOTE,LIFE_INSURANCE,0.7348301410675049,False
+CONS_0120,"Quisiera consultar las tarifas, ¿me pueden ayudar?",QUOTE,LIFE_INSURANCE,0.5335181355476379,False
+CONS_0121,"Necesito las tarifas, ¿cómo puedo consultarlas?",QUOTE,LIFE_INSURANCE,0.640381395816803,False
+CONS_0122,"Quisiera información sobre las tarifas, ¿dónde puedo obtenerla?",QUOTE,LIFE_INSURANCE,0.542070209980011,False
+CONS_0126,"Necesito las tarifas, quisiera consultarlas.",QUOTE,LIFE_INSURANCE,0.5236427783966064,False
+CONS_0127,"Busco las tarifas, ¿cómo puedo encontrarlas?",QUOTE,LIFE_INSURANCE,0.523112416267395,False
+CONS_0130,"Busco las tarifas, ¿puedes ayudarme a encontrarlas?",QUOTE,LIFE_INSURANCE,0.3115979433059692,False
+CONS_0134,"Estoy intentando encontrar las tarifas del seguro, ¿me pueden ayudar?",QUOTE,LIFE_INSURANCE,0.399266630411148,False
+CONS_0135,"Quiero las tarifas del seguro, ¿puedes ayudarme a consultarlas?",QUOTE,LIFE_INSURANCE,0.4968537390232086,False
+CONS_0136,¿Cómo puedo encontrar información sobre las tarifas?,QUOTE,LIFE_INSURANCE,0.6264913082122803,False
+CONS_0137,"Busco información sobre las tarifas del seguro de vida, necesito ayuda.",QUOTE,LIFE_INSURANCE,0.5830662250518799,False
+CONS_0139,"Quisiera consultar las tarifas, ¿dónde puedo hacerlo?",QUOTE,LIFE_INSURANCE,0.5409713387489319,False
+CONS_0144,"Quisiera saber sobre las tarifas, ¿dónde puedo encontrar más información?",QUOTE,LIFE_INSURANCE,0.6882214546203613,False
+CONS_0149,"Necesito información sobre las tarifas del seguro, ¿dónde puedo obtenerla?",QUOTE,LIFE_INSURANCE,0.5833481550216675,False
+CONS_0150,Quisiera saber sobre las tarifas.,QUOTE,LIFE_INSURANCE,0.593902587890625,False
+CONS_0164,"Quisiera programar los pagos, ¿me ayudarás?",PAYMENT,CONTACT,0.4129324853420257,False
+CONS_0165,"Tengo que hacer transferencias, ¿dónde puedo hacerlo?",PAYMENT,CONTACT,0.3276830315589905,False
+CONS_0166,"Quisiera saber más sobre sus opciones de pago, dame información.",PAYMENT,LIFE_INSURANCE,0.504304826259613,False
+CONS_0167,¿Puedes ayudarme a programar los pagos?,PAYMENT,CONTACT,0.3866520822048187,False
+CONS_0169,"Quisiera consultar mis pagos, ¿me pueden ayudar?",PAYMENT,CONTACT,0.5553491115570068,False
+CONS_0173,"Tengo que hacer un pago, ¿dónde puedo hacerlo?",PAYMENT,QUOTE,0.2930847108364105,False
+CONS_0176,"Tengo que programar los pagos, ¿me pueden ayudar?",PAYMENT,CONTACT,0.4137979447841644,False
+CONS_0178,¿Dónde puedo consultar sus opciones de pago?,PAYMENT,QUOTE,0.2823283672332763,False
+CONS_0179,"Quisiera programar los pagos, ¿puedes ayudarme?",PAYMENT,QUOTE,0.4298538565635681,False
+CONS_0180,"Tengo que programar los pagos, ¿dónde puedo hacerlo?",PAYMENT,CONTACT,0.2456590831279754,False
+CONS_0184,"Quisiera pagar con tarjeta de crédito, necesito ayuda.",PAYMENT,CONTACT,0.4090817272663116,False
+CONS_0185,"Necesito programar los pagos, ¿dónde puedo hacerlo?",PAYMENT,QUOTE,0.2836684882640838,False
+CONS_0186,"Quiero programar los pagos, ¿dónde puedo hacerlo?",PAYMENT,QUOTE,0.3376890420913696,False
+CONS_0187,"Necesito consultar mis pagos a la compañía de seguros de vida, ¿dónde puedo hacerlo?",PAYMENT,LIFE_INSURANCE,0.6220035552978516,False
+CONS_0191,"Tengo que hacer una transferencia, ¿dónde puedo hacerlo?",PAYMENT,CONTACT,0.4058048129081726,False
+CONS_0193,"Tengo que programar los pagos, ayúdame.",PAYMENT,CONTACT,0.3869340717792511,False
+CONS_0194,"Tengo que consultar mis pagos, ¿cómo puedo hacerlo?",PAYMENT,QUOTE,0.286272644996643,False
+CONS_0195,¿Sería posible consultar sus opciones de pago?,PAYMENT,QUOTE,0.3595271110534668,False
+CONS_0196,¿Es posible consultar mis pagos?,PAYMENT,QUOTE,0.3794241845607757,False
+CONS_0197,Quisiera programar los pagos.,PAYMENT,QUOTE,0.3736146986484527,False
+CONS_0198,Quisiera información sobre sus opciones de pago.,PAYMENT,LIFE_INSURANCE,0.5055050849914551,False
+CONS_0199,"Quisiera saber sobre sus opciones de pago, ¿dónde puedo obtener más información?",PAYMENT,LIFE_INSURANCE,0.6332866549491882,False
+CONS_0200,¿Puedes ayudarme a pagar con tarjeta?,PAYMENT,CONTACT,0.5595589876174927,False
+CONS_0212,Quiero cancelar mi póliza de seguro.,ENROLLMENT,COVERAGE,0.6681920289993286,False
+CONS_0214,Ayúdame a cancelar mi póliza de seguro.,ENROLLMENT,COVERAGE,0.5835759043693542,False
+CONS_0215,¿Dónde puedo obtener información sobre los cargos por terminación anticipada?,ENROLLMENT,CONTACT,0.2867347002029419,False
+CONS_0221,"Tengo que consultar los cargos por terminación anticipada, ¿dónde puedo hacerlo?",ENROLLMENT,CONTACT,0.3157078623771667,False
+CONS_0224,"Necesito una póliza de seguro, ¿dónde puedo contratarla?",ENROLLMENT,LIFE_INSURANCE,0.7137321829795837,False
+CONS_0225,"No quiero que se renueve mi póliza de seguro, ¿cómo puedo cancelarla?",ENROLLMENT,LIFE_INSURANCE,0.5490516424179077,False
+CONS_0226,"No quiero mi póliza de seguro, ¿puedes cancelarla?",ENROLLMENT,COVERAGE,0.5542543530464172,False
+CONS_0227,"Quisiera información sobre los cargos por terminación anticipada, ¿cómo puedo obtenerla?",ENROLLMENT,QUOTE,0.3633424043655395,False
+CONS_0230,"No quiero mi póliza de seguro de vida, necesito ayuda para cancelarla.",ENROLLMENT,COVERAGE,0.5213764309883118,False
+CONS_0231,"Quisiera información sobre los cargos por cancelación, ¿cómo puedo obtenerla?",ENROLLMENT,QUOTE,0.4051989316940307,False
+CONS_0232,"Quisiera información sobre las distintas pólizas de seguro de vida, ¿dónde puedo obtenerla?",ENROLLMENT,LIFE_INSURANCE,0.8852173686027527,False
+CONS_0233,¿Cómo puedo contratar una póliza de seguro?,ENROLLMENT,LIFE_INSURANCE,0.6631792783737183,False
+CONS_0234,¿Es posible contratar una póliza de seguro?,ENROLLMENT,LIFE_INSURANCE,0.7196642160415649,False
+CONS_0235,Quiero saber sobre las distintas pólizas de seguro.,ENROLLMENT,LIFE_INSURANCE,0.7289630770683289,False
+CONS_0236,"Quisiera saber más sobre los cargos por terminación anticipada, ¿puedes darme información?",ENROLLMENT,CONTACT,0.3409366905689239,False
+CONS_0237,"Quisiera consultar los cargos por terminación anticipada, necesito ayuda.",ENROLLMENT,QUOTE,0.4226186573505401,False
+CONS_0238,No quiero que se renueve mi póliza de seguro.,ENROLLMENT,LIFE_INSURANCE,0.696195662021637,False
+CONS_0239,"Quisiera consultar los cargos por terminación anticipada, ¿cómo lo hago?",ENROLLMENT,PAYMENT,0.2783777117729187,False
+CONS_0240,"No quiero mi póliza de seguro, necesito ayuda para cancelarla.",ENROLLMENT,LIFE_INSURANCE,0.4107703864574432,False
+CONS_0243,"Quiero saber más sobre los cargos por cancelación, ¿puedes conseguir información?",ENROLLMENT,QUOTE,0.3861221075057983,False
+CONS_0247,"Necesito cancelar mi póliza de seguro de vida, ¿puedes ayudarme?",ENROLLMENT,COVERAGE,0.6110953688621521,False
+CONS_0249,"Necesito información sobre los cargos por terminación anticipada, ¿cómo puedo obtenerla?",ENROLLMENT,QUOTE,0.3719772398471832,False
+CONS_0250,"Tengo que consultar los cargos por cancelación, ¿dónde puedo hacerlo?",ENROLLMENT,CONTACT,0.322171151638031,False
+CONS_0274,"Tengo que hablar con alguien, ¿me ayudarás?",CONTACT,PAYMENT,0.2403215318918228,False
+CONS_0291,"Tengo que hablar con alguien, necesito ayuda.",CONTACT,PAYMENT,0.2104169428348541,False
