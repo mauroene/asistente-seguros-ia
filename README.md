@@ -144,6 +144,13 @@ El segundo notebook solicita el archivo `INSUMOS_COLAB_2_COMPARACION_MODELOS.zip
 - **Con GPU:** permite realizar una nueva evaluación de los tres modelos utilizando los datos preparados.
 - **Sin GPU:** se requiere también el paquete de evidencias de la evaluación original, solicitado por el notebook, para recuperar y verificar los resultados sin repetir la inferencia.
 
+### Descarga de los paquetes
+
+- [Paquete de insumos](data/INSUMOS_COLAB_2_COMPARACION_MODELOS.zip): requerido en ambas modalidades.
+- [Paquete de evidencias originales](docs/evidencias_reporte_20261010T200713130418Z.zip): requerido adicionalmente para recuperar resultados sin GPU.
+
+Descarga los paquetes necesarios y súbelos completos, sin descomprimir, cuando el segundo notebook los solicite.
+
 Los archivos publicados por separado en `data/`, `results/` y `docs/` permiten consultar los datos y resultados, pero no sustituyen directamente los paquetes ZIP solicitados por el segundo notebook.
 
 ### Consideraciones de ejecución
