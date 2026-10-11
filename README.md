@@ -20,21 +20,15 @@ Este componente podrá utilizarse posteriormente como parte de un asistente inte
 
 ## Entorno de ejecución
 
-El desarrollo y las pruebas se realizarán principalmente en Google Colab utilizando aceleración por GPU.
+El proyecto se desarrolló en Python mediante Google Colab, utilizando bibliotecas del ecosistema Hugging Face para implementar y evaluar tres modelos preentrenados de clasificación de texto.
 
-Las principales tecnologías consideradas son:
+La evaluación original se realizó con una GPU NVIDIA Tesla T4, utilizando aproximadamente 12.67 GB de memoria RAM y 14.56 GB de memoria de GPU disponibles en el entorno.
 
-- Python
-- Google Colab
-- Hugging Face Transformers
-- Hugging Face Datasets
-- Hugging Face Evaluate
-- Scikit-learn
-- Pandas
-- NumPy
-- Matplotlib
+Las principales tecnologías y bibliotecas utilizadas fueron Python, Google Colab, Transformers, Datasets, PyTorch, Hugging Face Hub, scikit-learn, Pandas y NumPy.
 
-Las dependencias utilizadas por el proyecto se encuentran documentadas en `requirements.txt`.
+El desarrollo se organizó en dos notebooks complementarios. El primero permitió ejecutar los experimentos y generar las métricas originales. El segundo incorporó mecanismos para repetir la evaluación cuando existe una GPU disponible o recuperar y verificar las evidencias previamente generadas cuando no se dispone de ella.
+
+Las dependencias necesarias se encuentran especificadas en el archivo `requirements.txt`.
 
 ## Estructura del repositorio
 
