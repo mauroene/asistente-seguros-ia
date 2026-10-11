@@ -1,0 +1,241 @@
+﻿id_consulta,consulta_es,categoria_referencia
+CONS_0011,"Necesito consultar mi seguro de vida, ¿puedes ayudarme?",LIFE_INSURANCE
+CONS_0012,¿Cómo puedo obtener información sobre mi seguro de vida?,LIFE_INSURANCE
+CONS_0013,"Quisiera consultar mi seguro de vida, ¿dónde puedo hacerlo?",LIFE_INSURANCE
+CONS_0014,"Tengo que revisar mi seguro de vida, ¿dónde puedo hacerlo?",LIFE_INSURANCE
+CONS_0015,"Quisiera saber sobre mi seguro de vida, consigue información.",LIFE_INSURANCE
+CONS_0016,"Quisiera saber más sobre mi seguro de vida, ¿puedes darme información?",LIFE_INSURANCE
+CONS_0017,¿Cómo puedo consultar mi seguro de vida?,LIFE_INSURANCE
+CONS_0018,"Quiero revisar mi seguro de vida, ¿puedes ayudarme?",LIFE_INSURANCE
+CONS_0019,"Necesito revisar mi seguro de vida, ¿cómo puedo hacerlo?",LIFE_INSURANCE
+CONS_0020,"Necesito información sobre mi seguro de vida, ¿dónde puedo encontrarla?",LIFE_INSURANCE
+CONS_0021,"Busco información sobre mi seguro de vida, ¿cómo puedo encontrarla?",LIFE_INSURANCE
+CONS_0022,"Busco información sobre mi seguro de vida, ¿puedes ayudarme?",LIFE_INSURANCE
+CONS_0023,"Quiero saber más sobre mi seguro de vida, ¿puedes conseguir información?",LIFE_INSURANCE
+CONS_0024,"Necesito revisar mi seguro de vida, ¿puedes ayudarme?",LIFE_INSURANCE
+CONS_0025,"Quiero consultar mi seguro de vida, necesito ayuda.",LIFE_INSURANCE
+CONS_0026,"Busco información sobre mi seguro de vida, necesito ayuda.",LIFE_INSURANCE
+CONS_0027,"Quiero información sobre mi seguro de vida, ¿cómo puedo obtenerla?",LIFE_INSURANCE
+CONS_0028,¿Es posible revisar mi seguro de vida?,LIFE_INSURANCE
+CONS_0029,"Quiero consultar mi seguro de vida, ¿dónde puedo hacerlo?",LIFE_INSURANCE
+CONS_0030,"Necesito información sobre mi seguro de vida, ¿cómo puedo obtenerla?",LIFE_INSURANCE
+CONS_0031,¿Puedes ayudarme a revisar mi seguro de vida?,LIFE_INSURANCE
+CONS_0032,¿Podría revisar mi seguro de vida?,LIFE_INSURANCE
+CONS_0033,"Tengo que consultar mi seguro de vida, ¿me ayudarás?",LIFE_INSURANCE
+CONS_0034,"Tengo que consultar mi seguro de vida, ¿cómo puedo hacerlo?",LIFE_INSURANCE
+CONS_0035,"Quisiera saber sobre mi seguro de vida, ¿puedes darme información?",LIFE_INSURANCE
+CONS_0036,"Quisiera consultar mi seguro de vida, ¿puedes ayudarme?",LIFE_INSURANCE
+CONS_0037,¿Dónde puedo revisar mi seguro de vida?,LIFE_INSURANCE
+CONS_0038,Necesito consultar mi seguro de vida.,LIFE_INSURANCE
+CONS_0039,"Quisiera información sobre mi seguro de vida, ¿dónde puedo encontrarla?",LIFE_INSURANCE
+CONS_0040,"Quisiera saber más sobre mi seguro de vida, ¿puedes conseguir información?",LIFE_INSURANCE
+CONS_0041,"Necesito información sobre mi seguro de vida, ¿cómo puedo encontrarla?",LIFE_INSURANCE
+CONS_0042,"Quiero saber sobre mi seguro de vida, ¿podrías darme información?",LIFE_INSURANCE
+CONS_0043,Necesito ayuda para consultar mi seguro de vida.,LIFE_INSURANCE
+CONS_0044,"Quisiera revisar mi seguro de vida, necesito ayuda.",LIFE_INSURANCE
+CONS_0045,"Quisiera saber sobre mi seguro de vida, ¿cómo puedo encontrar más información?",LIFE_INSURANCE
+CONS_0046,"Quisiera información sobre mi seguro de vida, ¿dónde puedo obtenerla?",LIFE_INSURANCE
+CONS_0047,¿Dónde puedo encontrar información sobre mi seguro de vida?,LIFE_INSURANCE
+CONS_0048,Tengo que revisar mi seguro de vida.,LIFE_INSURANCE
+CONS_0049,"Quisiera revisar mi seguro de vida, ¿me pueden ayudar?",LIFE_INSURANCE
+CONS_0050,"Busco información sobre mi seguro de vida, ¿cómo puedo obtenerla?",LIFE_INSURANCE
+CONS_0061,"Quisiera saber sobre mi cobertura, ¿dónde puedo encontrar más información?",COVERAGE
+CONS_0062,¿Podrías ayudarme a ampliar mi cobertura?,COVERAGE
+CONS_0063,"Tengo que consultar mi cobertura, ¿me pueden ayudar?",COVERAGE
+CONS_0064,¿Dónde puedo ampliar la cobertura de mi póliza de seguro de vida?,COVERAGE
+CONS_0065,Necesito ayuda para ampliar mi cobertura.,COVERAGE
+CONS_0066,"Tengo que modificar la cobertura de mi póliza de seguro de vida, ¿dónde puedo hacerlo?",COVERAGE
+CONS_0067,"Quisiera saber sobre la cobertura de mi póliza de seguro de vida, ¿cómo puedo obtener más información?",COVERAGE
+CONS_0068,"Quisiera ampliar la cobertura de mi póliza de seguro, ¿me ayudas?",COVERAGE
+CONS_0069,"Quisiera cambiar la cobertura de mi póliza de seguro, ¿me pueden ayudar?",COVERAGE
+CONS_0070,"Quisiera consultar la cobertura de mi póliza de seguro de vida, ¿dónde puedo hacerlo?",COVERAGE
+CONS_0071,"Quisiera ampliar mi cobertura, ¿puedes ayudarme?",COVERAGE
+CONS_0072,"Quiero ampliar la cobertura de mi póliza de seguro, ¿cómo lo hago?",COVERAGE
+CONS_0073,"Quisiera saber sobre mi cobertura, ¿podrías conseguir información?",COVERAGE
+CONS_0074,"Tengo que ampliar la cobertura de mi póliza de seguro de vida, ¿dónde puedo hacerlo?",COVERAGE
+CONS_0075,¿Puedes ayudarme a consultar la cobertura de mi póliza de seguro?,COVERAGE
+CONS_0076,"Quisiera ampliar la cobertura de mi póliza de seguro de vida, ¿cómo puedo hacerlo?",COVERAGE
+CONS_0077,"Quiero reducir la cobertura de mi póliza de seguro de vida, ¿cómo lo hago?",COVERAGE
+CONS_0078,"Tengo que ampliar la cobertura de mi póliza de seguro, ¿puedes ayudarme?",COVERAGE
+CONS_0079,"Tengo que reducir la cobertura de mi póliza de seguro de vida, ¿dónde puedo hacerlo?",COVERAGE
+CONS_0080,"Tengo que ampliar mi cobertura, necesito ayuda.",COVERAGE
+CONS_0081,¿Dónde puedo ampliar mi cobertura?,COVERAGE
+CONS_0082,¿Es posible consultar mi cobertura?,COVERAGE
+CONS_0083,Quiero ayuda para consultar la cobertura de mi póliza de seguro.,COVERAGE
+CONS_0084,"Tengo que reducir mi cobertura, necesito ayuda.",COVERAGE
+CONS_0085,¿Es posible ampliar la cobertura de mi póliza de seguro?,COVERAGE
+CONS_0086,"Quiero consultar la cobertura de mi póliza de seguro, ¿dónde puedo hacerlo?",COVERAGE
+CONS_0087,"Tengo que consultar mi cobertura, necesito ayuda.",COVERAGE
+CONS_0088,"Quisiera información sobre la cobertura de mi póliza de seguro de vida, ¿cómo puedo encontrarla?",COVERAGE
+CONS_0089,"Necesito reducir la cobertura de mi póliza de seguro de vida, ¿me pueden ayudar?",COVERAGE
+CONS_0090,¿Sería posible consultar la cobertura de mi póliza de seguro?,COVERAGE
+CONS_0091,"Tengo que modificar la cobertura de mi póliza de seguro, ¿me ayudarás?",COVERAGE
+CONS_0092,"Busco información sobre la cobertura de mi póliza de seguro, ¿puedes ayudarme?",COVERAGE
+CONS_0093,"Quiero cambiar la cobertura de mi póliza de seguro, necesito ayuda.",COVERAGE
+CONS_0094,"Tengo que consultar la cobertura de mi póliza de seguro, necesito ayuda.",COVERAGE
+CONS_0095,¿Cómo puedo reducir la cobertura de mi póliza de seguro?,COVERAGE
+CONS_0096,"Quisiera ampliar la cobertura de mi póliza de seguro, ¿cómo lo hago?",COVERAGE
+CONS_0097,¿Dónde puedo obtener información sobre mi cobertura?,COVERAGE
+CONS_0098,"Quiero modificar mi cobertura, ¿me pueden ayudar?",COVERAGE
+CONS_0099,Necesito ayuda para reducir mi cobertura.,COVERAGE
+CONS_0100,"Quiero saber sobre la cobertura de mi póliza de seguro, ¿dónde puedo encontrar más información?",COVERAGE
+CONS_0111,Tengo que estimar una cotización de seguro de vida.,QUOTE
+CONS_0112,"Quiero consultar las tarifas del seguro de vida, necesito ayuda.",QUOTE
+CONS_0113,"Quiero saber más sobre las tarifas, ¿puedes conseguir información?",QUOTE
+CONS_0114,¿Puedes mostrarme las tarifas?,QUOTE
+CONS_0115,"Quiero estimar una cotización de seguro, ¿puedes ayudarme?",QUOTE
+CONS_0116,"Quiero saber más sobre las tarifas del seguro de vida, ¿puedes conseguir información?",QUOTE
+CONS_0117,Ayúdame a estimar una cotización de seguro.,QUOTE
+CONS_0118,"Necesito una cotización de seguro, ¿me ayudarás a estimarla?",QUOTE
+CONS_0119,"Quiero una cotización de seguro de vida, quiero estimarla.",QUOTE
+CONS_0120,"Quisiera consultar las tarifas, ¿me pueden ayudar?",QUOTE
+CONS_0121,"Necesito las tarifas, ¿cómo puedo consultarlas?",QUOTE
+CONS_0122,"Quisiera información sobre las tarifas, ¿dónde puedo obtenerla?",QUOTE
+CONS_0123,"Quiero saber más sobre las tarifas del seguro de vida, dame información.",QUOTE
+CONS_0124,"Quiero una cotización de seguro de vida, ¿puedo calcularla?",QUOTE
+CONS_0125,"Busco una cotización de seguro, ¿puedes ayudarme a encontrarla?",QUOTE
+CONS_0126,"Necesito las tarifas, quisiera consultarlas.",QUOTE
+CONS_0127,"Busco las tarifas, ¿cómo puedo encontrarlas?",QUOTE
+CONS_0128,"Necesito una cotización de seguro, ¿podrías estimarla?",QUOTE
+CONS_0129,Quiero ayuda para consultar las tarifas del seguro.,QUOTE
+CONS_0130,"Busco las tarifas, ¿puedes ayudarme a encontrarlas?",QUOTE
+CONS_0131,"Quiero una cotización de seguro de vida, ¿puedes ayudarme a calcularla?",QUOTE
+CONS_0132,"Busco una cotización de seguro de vida, ¿puedes ayudarme a encontrarla?",QUOTE
+CONS_0133,"Quisiera estimar una cotización de seguro de vida, ¿dónde puedo hacerlo?",QUOTE
+CONS_0134,"Estoy intentando encontrar las tarifas del seguro, ¿me pueden ayudar?",QUOTE
+CONS_0135,"Quiero las tarifas del seguro, ¿puedes ayudarme a consultarlas?",QUOTE
+CONS_0136,¿Cómo puedo encontrar información sobre las tarifas?,QUOTE
+CONS_0137,"Busco información sobre las tarifas del seguro de vida, necesito ayuda.",QUOTE
+CONS_0138,"Necesito una cotización de seguro, ¿cómo puedo estimarla?",QUOTE
+CONS_0139,"Quisiera consultar las tarifas, ¿dónde puedo hacerlo?",QUOTE
+CONS_0140,"Tengo que calcular una cotización de seguro de vida, necesito ayuda.",QUOTE
+CONS_0141,"Quiero consultar las tarifas del seguro, ¿cómo lo hago?",QUOTE
+CONS_0142,"Tengo que estimar una cotización de seguro de vida, ¿me pueden ayudar?",QUOTE
+CONS_0143,"Necesito una cotización de seguro, ¿puedes ayudarme a estimarla?",QUOTE
+CONS_0144,"Quisiera saber sobre las tarifas, ¿dónde puedo encontrar más información?",QUOTE
+CONS_0145,"Quiero estimar una cotización de seguro, ayúdame.",QUOTE
+CONS_0146,"Quisiera información sobre las tarifas del seguro, ¿cómo puedo obtenerla?",QUOTE
+CONS_0147,¿Cómo puedo estimar una cotización de seguro de vida?,QUOTE
+CONS_0148,"Quiero calcular una cotización de seguro, ¿dónde puedo hacerlo?",QUOTE
+CONS_0149,"Necesito información sobre las tarifas del seguro, ¿dónde puedo obtenerla?",QUOTE
+CONS_0150,Quisiera saber sobre las tarifas.,QUOTE
+CONS_0161,"Quiero consultar sus métodos de pago, ¿me pueden ayudar?",PAYMENT
+CONS_0162,Quiero ayuda para pagar.,PAYMENT
+CONS_0163,"Necesito consultar sus opciones de pago, ¿cómo puedo hacerlo?",PAYMENT
+CONS_0164,"Quisiera programar los pagos, ¿me ayudarás?",PAYMENT
+CONS_0165,"Tengo que hacer transferencias, ¿dónde puedo hacerlo?",PAYMENT
+CONS_0166,"Quisiera saber más sobre sus opciones de pago, dame información.",PAYMENT
+CONS_0167,¿Puedes ayudarme a programar los pagos?,PAYMENT
+CONS_0168,"Me aparece un error cuando intento hacer un pago, ¿puedes reportarlo?",PAYMENT
+CONS_0169,"Quisiera consultar mis pagos, ¿me pueden ayudar?",PAYMENT
+CONS_0170,"No puedo pagar, ayúdame a reportar un problema de pago.",PAYMENT
+CONS_0171,"Quisiera consultar sus métodos de pago, ¿cómo lo hago?",PAYMENT
+CONS_0172,"El pago no se procesó, necesito ayuda para reportar un problema de pago.",PAYMENT
+CONS_0173,"Tengo que hacer un pago, ¿dónde puedo hacerlo?",PAYMENT
+CONS_0174,¿Puedo pagar con tarjeta?,PAYMENT
+CONS_0175,"No puedo hacer una transferencia, quiero ayuda para reportar un problema de pago.",PAYMENT
+CONS_0176,"Tengo que programar los pagos, ¿me pueden ayudar?",PAYMENT
+CONS_0177,"Tengo que pagar con tarjeta de crédito, ayúdame.",PAYMENT
+CONS_0178,¿Dónde puedo consultar sus opciones de pago?,PAYMENT
+CONS_0179,"Quisiera programar los pagos, ¿puedes ayudarme?",PAYMENT
+CONS_0180,"Tengo que programar los pagos, ¿dónde puedo hacerlo?",PAYMENT
+CONS_0181,"Busco información sobre sus métodos de pago, ¿cómo puedo encontrarla?",PAYMENT
+CONS_0182,Necesito ayuda para reportar un problema de pago.,PAYMENT
+CONS_0183,"No puedo hacer una transferencia, ayúdame a reportar problemas de pago.",PAYMENT
+CONS_0184,"Quisiera pagar con tarjeta de crédito, necesito ayuda.",PAYMENT
+CONS_0185,"Necesito programar los pagos, ¿dónde puedo hacerlo?",PAYMENT
+CONS_0186,"Quiero programar los pagos, ¿dónde puedo hacerlo?",PAYMENT
+CONS_0187,"Necesito consultar mis pagos a la compañía de seguros de vida, ¿dónde puedo hacerlo?",PAYMENT
+CONS_0188,¿Dónde puedo consultar sus métodos de pago?,PAYMENT
+CONS_0189,Necesito ayuda para pagar.,PAYMENT
+CONS_0190,"No puedo hacer transferencias, necesito ayuda para reportar problemas de pago.",PAYMENT
+CONS_0191,"Tengo que hacer una transferencia, ¿dónde puedo hacerlo?",PAYMENT
+CONS_0192,"Tengo que consultar sus métodos de pago, ¿cómo puedo hacerlo?",PAYMENT
+CONS_0193,"Tengo que programar los pagos, ayúdame.",PAYMENT
+CONS_0194,"Tengo que consultar mis pagos, ¿cómo puedo hacerlo?",PAYMENT
+CONS_0195,¿Sería posible consultar sus opciones de pago?,PAYMENT
+CONS_0196,¿Es posible consultar mis pagos?,PAYMENT
+CONS_0197,Quisiera programar los pagos.,PAYMENT
+CONS_0198,Quisiera información sobre sus opciones de pago.,PAYMENT
+CONS_0199,"Quisiera saber sobre sus opciones de pago, ¿dónde puedo obtener más información?",PAYMENT
+CONS_0200,¿Puedes ayudarme a pagar con tarjeta?,PAYMENT
+CONS_0211,"Quisiera consultar los cargos por terminación anticipada, ¿me pueden ayudar?",ENROLLMENT
+CONS_0212,Quiero cancelar mi póliza de seguro.,ENROLLMENT
+CONS_0213,¿Dónde puedo encontrar información sobre los cargos por cancelación?,ENROLLMENT
+CONS_0214,Ayúdame a cancelar mi póliza de seguro.,ENROLLMENT
+CONS_0215,¿Dónde puedo obtener información sobre los cargos por terminación anticipada?,ENROLLMENT
+CONS_0216,"Tengo que consultar los cargos por terminación anticipada, ¿cómo puedo hacerlo?",ENROLLMENT
+CONS_0217,"Quisiera consultar los cargos por cancelación, ¿cómo lo hago?",ENROLLMENT
+CONS_0218,Quiero consultar los cargos por terminación anticipada.,ENROLLMENT
+CONS_0219,"Quisiera saber más sobre los cargos por cancelación, ¿me darás información?",ENROLLMENT
+CONS_0220,"Quiero consultar los cargos por terminación anticipada, ¿cómo puedo hacerlo?",ENROLLMENT
+CONS_0221,"Tengo que consultar los cargos por terminación anticipada, ¿dónde puedo hacerlo?",ENROLLMENT
+CONS_0222,"Necesito consultar los cargos por terminación anticipada, ayúdame.",ENROLLMENT
+CONS_0223,¿Puedes ayudarme a consultar los cargos por terminación anticipada?,ENROLLMENT
+CONS_0224,"Necesito una póliza de seguro, ¿dónde puedo contratarla?",ENROLLMENT
+CONS_0225,"No quiero que se renueve mi póliza de seguro, ¿cómo puedo cancelarla?",ENROLLMENT
+CONS_0226,"No quiero mi póliza de seguro, ¿puedes cancelarla?",ENROLLMENT
+CONS_0227,"Quisiera información sobre los cargos por terminación anticipada, ¿cómo puedo obtenerla?",ENROLLMENT
+CONS_0228,"Busco información sobre los cargos por cancelación, ¿cómo puedo obtenerla?",ENROLLMENT
+CONS_0229,"Tengo que consultar los cargos por cancelación, ¿me pueden ayudar?",ENROLLMENT
+CONS_0230,"No quiero mi póliza de seguro de vida, necesito ayuda para cancelarla.",ENROLLMENT
+CONS_0231,"Quisiera información sobre los cargos por cancelación, ¿cómo puedo obtenerla?",ENROLLMENT
+CONS_0232,"Quisiera información sobre las distintas pólizas de seguro de vida, ¿dónde puedo obtenerla?",ENROLLMENT
+CONS_0233,¿Cómo puedo contratar una póliza de seguro?,ENROLLMENT
+CONS_0234,¿Es posible contratar una póliza de seguro?,ENROLLMENT
+CONS_0235,Quiero saber sobre las distintas pólizas de seguro.,ENROLLMENT
+CONS_0236,"Quisiera saber más sobre los cargos por terminación anticipada, ¿puedes darme información?",ENROLLMENT
+CONS_0237,"Quisiera consultar los cargos por terminación anticipada, necesito ayuda.",ENROLLMENT
+CONS_0238,No quiero que se renueve mi póliza de seguro.,ENROLLMENT
+CONS_0239,"Quisiera consultar los cargos por terminación anticipada, ¿cómo lo hago?",ENROLLMENT
+CONS_0240,"No quiero mi póliza de seguro, necesito ayuda para cancelarla.",ENROLLMENT
+CONS_0241,¿Podría consultar los cargos por cancelación?,ENROLLMENT
+CONS_0242,"Busco información sobre los cargos por cancelación, ayúdame.",ENROLLMENT
+CONS_0243,"Quiero saber más sobre los cargos por cancelación, ¿puedes conseguir información?",ENROLLMENT
+CONS_0244,"Tengo que consultar los cargos por terminación anticipada, ayúdame.",ENROLLMENT
+CONS_0245,"Necesito consultar los cargos por terminación anticipada, ¿puedes ayudarme?",ENROLLMENT
+CONS_0246,"Busco información sobre los cargos por terminación anticipada, ¿me ayudarás?",ENROLLMENT
+CONS_0247,"Necesito cancelar mi póliza de seguro de vida, ¿puedes ayudarme?",ENROLLMENT
+CONS_0248,Necesito información sobre los cargos por terminación anticipada.,ENROLLMENT
+CONS_0249,"Necesito información sobre los cargos por terminación anticipada, ¿cómo puedo obtenerla?",ENROLLMENT
+CONS_0250,"Tengo que consultar los cargos por cancelación, ¿dónde puedo hacerlo?",ENROLLMENT
+CONS_0261,"Necesito hablar con la compañía de seguros, ¿cómo puedo hacerlo?",CONTACT
+CONS_0262,"Tengo que hablar con la compañía de seguros, ayúdame.",CONTACT
+CONS_0263,"Tengo que hablar con la compañía de seguros, ¿cómo puedo hacerlo?",CONTACT
+CONS_0264,"No te entiendo, ¿podrías ayudarme a hablar con un agente humano?",CONTACT
+CONS_0265,¿Puedes ayudarme a hablar con la compañía de seguros?,CONTACT
+CONS_0266,¿Puedo hablar con atención al cliente?,CONTACT
+CONS_0267,"Tengo que hablar con atención al cliente, ¿cómo puedo hacerlo?",CONTACT
+CONS_0268,Tengo que hablar con mi representante de seguros.,CONTACT
+CONS_0269,"Quisiera hablar con mi representante de seguros, ¿puedes ayudarme?",CONTACT
+CONS_0270,"Tengo que hablar con mi representante de seguros, ¿me ayudarás?",CONTACT
+CONS_0271,¿Sería posible hablar con la aseguradora?,CONTACT
+CONS_0272,"No te entiendo, ¿podrías ayudarme a hablar con un agente?",CONTACT
+CONS_0273,"Quisiera hablar con mi representante de seguros, ¿cómo puedo hacerlo?",CONTACT
+CONS_0274,"Tengo que hablar con alguien, ¿me ayudarás?",CONTACT
+CONS_0275,"Quiero hablar con un agente humano, ¿cómo lo hago?",CONTACT
+CONS_0276,"Tengo que enviar un correo a atención al cliente, ¿cómo puedo hacerlo?",CONTACT
+CONS_0277,"Tengo que llamar a atención al cliente, ¿cómo lo hago?",CONTACT
+CONS_0278,"Necesito enviar un correo a atención al cliente, ¿dónde puedo hacerlo?",CONTACT
+CONS_0279,"No te entiendo, tengo que hablar con un agente humano.",CONTACT
+CONS_0280,"No te entiendo, ¿puedes ayudarme a hablar con alguien?",CONTACT
+CONS_0281,Quiero ayuda para hablar con atención al cliente.,CONTACT
+CONS_0282,Necesito ayuda para hablar con mi representante de seguros.,CONTACT
+CONS_0283,"Tengo que hablar con la compañía de seguros, ¿dónde puedo hacerlo?",CONTACT
+CONS_0284,"Quiero hablar con mi representante de seguros, ¿puedes ayudarme?",CONTACT
+CONS_0285,"Necesito hablar con mi representante de seguros, ¿puedes ayudarme?",CONTACT
+CONS_0286,"Quisiera hablar con la compañía de seguros, ¿dónde puedo hacerlo?",CONTACT
+CONS_0287,"Necesito hablar con la aseguradora, ¿cómo puedo hacerlo?",CONTACT
+CONS_0288,"Necesito enviar un correo a atención al cliente, ¿cómo puedo hacerlo?",CONTACT
+CONS_0289,"Quisiera hablar con mi representante de seguros, necesito ayuda.",CONTACT
+CONS_0290,"Necesito hablar con atención al cliente, ¿dónde puedo hacerlo?",CONTACT
+CONS_0291,"Tengo que hablar con alguien, necesito ayuda.",CONTACT
+CONS_0292,"Quiero hablar con atención al cliente, ¿me pueden ayudar?",CONTACT
+CONS_0293,"No te entiendo, ¿puedo hablar con una persona?",CONTACT
+CONS_0294,"Quiero enviar un correo a atención al cliente, ¿dónde puedo hacerlo?",CONTACT
+CONS_0295,"Tengo que hablar con la aseguradora, ¿dónde puedo hacerlo?",CONTACT
+CONS_0296,Quiero ayuda para llamar a atención al cliente.,CONTACT
+CONS_0297,"Tengo que hablar con atención al cliente, ¿me ayudarás?",CONTACT
+CONS_0298,"Tengo que hablar con mi representante de seguros, ¿dónde puedo hacerlo?",CONTACT
+CONS_0299,Tengo que hablar con una persona.,CONTACT
+CONS_0300,Quiero ayuda para hablar con mi representante de seguros.,CONTACT
