@@ -1,0 +1,91 @@
+{
+  "procedencia": {
+    "origen": "evaluacion_previa_primer_colab",
+    "ejecutada_en_esta_sesion": false,
+    "version_evaluacion": "20261010T200128828138Z",
+    "version_dataset": "20261010T195212647311Z",
+    "dispositivo_evaluacion": "Tesla T4",
+    "archivo_respaldo": "evidencias_reporte_20261010T200713130418Z.zip"
+  },
+  "configuracion_prueba": {
+    "descripciones": {
+      "LIFE_INSURANCE": "información general o consulta de información sobre un seguro de vida",
+      "COVERAGE": "consulta de coberturas, exclusiones o modificación de la cobertura del seguro",
+      "QUOTE": "consulta de tarifas, estimación de costo o solicitud de cotización del seguro",
+      "PAYMENT": "realización y consulta de pagos del seguro, programación, métodos y problemas de pago",
+      "ENROLLMENT": "comparación, contratación, renovación o cancelación de pólizas, incluidos requisitos y cargos de terminación",
+      "CONTACT": "contacto con atención al cliente, un representante, la aseguradora o una persona"
+    },
+    "plantilla": "Esta consulta trata sobre {}.",
+    "multi_label": false,
+    "batch_size": 1,
+    "repeticiones": 3,
+    "precision": "float32"
+  },
+  "consultas": 240,
+  "modelos": {
+    "MiniLMv2 multilingüe": {
+      "identificador": "MoritzLaurer/multilingual-MiniLMv2-L6-mnli-xnli",
+      "prefijo_archivos": "modelo_1",
+      "metricas": {
+        "Modelo": "MiniLMv2 multilingüe",
+        "Exactitud": 0.44166666666666665,
+        "Precisión macro": 0.41157376574043236,
+        "Exhaustividad macro": 0.4416666666666667,
+        "F1 macro": 0.4001939389643183,
+        "Tiempo medio total (s)": 18.52581450466702,
+        "Desviación de tiempo (s)": 5.928828749086116,
+        "Tiempo medio por consulta (s)": 0.07719089376944592
+      },
+      "tiempos": [
+        24.657131056001163,
+        18.09762250300082,
+        12.822689954999078
+      ],
+      "tiempo_carga": 8.425303009000345,
+      "etiquetas_estables": true
+    },
+    "mDeBERTa-v3-base": {
+      "identificador": "MoritzLaurer/mDeBERTa-v3-base-mnli-xnli",
+      "prefijo_archivos": "modelo_2",
+      "metricas": {
+        "Modelo": "mDeBERTa-v3-base",
+        "Exactitud": 0.3125,
+        "Precisión macro": 0.5596491228070176,
+        "Exhaustividad macro": 0.3125,
+        "F1 macro": 0.28925352766178114,
+        "Tiempo medio total (s)": 34.09837286233354,
+        "Desviación de tiempo (s)": 0.21096110058546494,
+        "Tiempo medio por consulta (s)": 0.14207655359305643
+      },
+      "tiempos": [
+        34.0252792629999,
+        34.33615976799956,
+        33.93367955600115
+      ],
+      "tiempo_carga": 4.172107173000768,
+      "etiquetas_estables": true
+    },
+    "XLM-RoBERTa-large": {
+      "identificador": "joeddav/xlm-roberta-large-xnli",
+      "prefijo_archivos": "modelo_3",
+      "metricas": {
+        "Modelo": "XLM-RoBERTa-large",
+        "Exactitud": 0.6583333333333333,
+        "Precisión macro": 0.7460444475628755,
+        "Exhaustividad macro": 0.6583333333333333,
+        "F1 macro": 0.6491602896910346,
+        "Tiempo medio total (s)": 26.603148764999787,
+        "Desviación de tiempo (s)": 0.09421540652691987,
+        "Tiempo medio por consulta (s)": 0.11084645318749911
+      },
+      "tiempos": [
+        26.695251069000733,
+        26.60724157599907,
+        26.50695364999956
+      ],
+      "tiempo_carga": 5.452039955000146,
+      "etiquetas_estables": true
+    }
+  }
+}
