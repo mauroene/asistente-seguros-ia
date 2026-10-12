@@ -1,93 +1,270 @@
-# Actividad 5. Preparación de datos, entrenamiento y seguimiento de modelos
+# Actividad 5. Entrenar, optimizar y evaluar modelos de aprendizaje automático mediante validación cruzada y MLflow
 
 ## Gestión de Proyectos de Inteligencia Artificial
 **Módulo 2 – Semana 6**
 
 ### 1. Descripción del proyecto
 
-Esta actividad forma parte del proyecto académico
-"Asistente inteligente para comprensión, orientación y
-cotización de seguros de vida mediante inteligencia
-artificial generativa".
+Esta actividad forma parte del proyecto académico:
 
-Su propósito es implementar un proceso reproducible
-de preparación de datos, entrenamiento, evaluación
-y comparación de modelos de aprendizaje automático.
+**Asistente inteligente para comprensión, orientación y
+cotización de seguros de vida mediante inteligencia
+artificial generativa.**
+
+El propósito de la actividad es implementar un proceso
+de preparación de datos, entrenamiento, optimización,
+evaluación y seguimiento de modelos de aprendizaje
+automático.
+
+El trabajo se centra en la clasificación automática
+de consultas relacionadas con seguros.
+
+Los modelos desarrollados representan un componente
+de clasificación que podría integrarse posteriormente
+en el asistente inteligente del proyecto.
 
 ### 2. Objetivo
 
-Preparar un dataset público relacionado con consultas
-de seguros, entrenar y comparar dos algoritmos de
-clasificación y registrar los experimentos mediante MLflow.
+Preparar un dataset público de consultas relacionadas
+con seguros, entrenar y comparar dos algoritmos de
+clasificación, optimizar sus hiperparámetros mediante
+validación cruzada y registrar los experimentos
+utilizando MLflow.
 
-### 3. Dataset
-
-Se utilizará el dataset público:
-
-bitext/Bitext-insurance-llm-chatbot-training-dataset
-
-Fuente: Hugging Face.
-
-El conjunto contiene aproximadamente 39,000 registros
-de consultas relacionadas con seguros.
-
-Las variables principales son:
-
-- instruction: consulta del usuario.
-- intent: intención de la consulta.
-- category: categoría de la consulta.
-- tags: etiquetas asociadas.
-- response: respuesta correspondiente.
-
-El problema abordado será la clasificación automática
-de consultas relacionadas con seguros.
-
-### 4. Modelos seleccionados
-
-Se utilizarán dos algoritmos de clasificación:
+Los modelos seleccionados fueron:
 
 1. Regresión logística.
 2. Random Forest.
 
-Los textos serán transformados mediante TF-IDF.
+Ambos se implementaron utilizando representaciones
+textuales TF-IDF.
 
-Los modelos serán evaluados mediante métricas
-estandarizadas y validación cruzada.
+### 3. Dataset
 
-### 5. Seguimiento de experimentos
+**Fuente:** Hugging Face.
 
-Se utilizará MLflow para registrar:
+**Dataset:**
+bitext/Bitext-insurance-llm-chatbot-training-dataset
+
+**Enlace:**
+https://huggingface.co/datasets/bitext/Bitext-insurance-llm-chatbot-training-dataset
+
+El conjunto de datos contiene consultas relacionadas
+con seguros, organizadas en 17 categorías.
+
+#### Variables principales
+
+| Variable | Descripción |
+|---|---|
+| instruction | Consulta formulada por el usuario |
+| intent | Intención asociada a la consulta |
+| category | Categoría de clasificación |
+| tags | Etiquetas complementarias |
+| response | Respuesta asociada |
+
+#### Preparación y limpieza
+
+Se realizaron las siguientes operaciones:
+
+- Revisión de valores nulos.
+- Identificación de registros duplicados.
+- Estandarización de espacios en variables textuales.
+- Eliminación de 17 consultas repetidas.
+- Verificación de consistencia de categorías.
+
+#### Resultados de preparación
+
+| Indicador | Resultado |
+|---|---:|
+| Registros originales | 39,000 |
+| Registros procesados | 38,983 |
+| Registros eliminados | 17 |
+| Categorías | 17 |
+| Registros de entrenamiento | 31,186 |
+| Registros de prueba | 7,797 |
+
+Se utilizó una división estratificada del 80 % para
+entrenamiento y 20 % para prueba.
+
+Los archivos originales y procesados se encuentran
+versionados en GitHub mediante archivos ZIP.
+
+### 4. Modelos seleccionados y evaluación
+
+Se entrenaron dos modelos supervisados de clasificación:
+
+**Modelo 1: Regresión logística**
+
+- Representación TF-IDF.
+- Optimización mediante GridSearchCV.
+- Validación cruzada de cinco particiones.
+- C = 2.
+- max_features = 5000.
+- ngram_range = (1, 1).
+
+**Modelo 2: Random Forest**
+
+- Representación TF-IDF.
+- Optimización mediante GridSearchCV.
+- Validación cruzada de cinco particiones.
+- n_estimators = 200.
+- max_depth = None.
+- min_samples_leaf = 1.
+
+#### Resultados en el conjunto de prueba
+
+| Métrica | Regresión logística | Random Forest |
+|---|---:|---:|
+| Accuracy | 0.9935 | 0.9909 |
+| Precision macro | 0.9912 | 0.9871 |
+| Recall macro | 0.9903 | 0.9856 |
+| F1 macro | 0.9907 | 0.9863 |
+| ROC-AUC | 0.9999 | 0.9998 |
+
+La regresión logística presentó el mejor desempeño
+general en las métricas evaluadas.
+
+#### Comparación estadística
+
+Se aplicó la prueba de McNemar para comparar las
+predicciones de ambos modelos sobre el mismo conjunto
+de prueba.
+
+**Valor p:** 0.01111756.
+
+El resultado indica una diferencia estadísticamente
+significativa al nivel de 0.05.
+
+### 5. Seguimiento de experimentos con MLflow
+
+Se utilizó MLflow para documentar y comparar
+los experimentos de entrenamiento.
+
+Se registraron:
 
 - Parámetros e hiperparámetros.
 - Métricas de evaluación.
-- Modelos entrenados.
-- Artefactos generados.
 - Resultados comparativos.
+- Gráficas y artefactos de los experimentos.
+
+La información persistente de MLflow se almacenó
+en Google Drive.
+
+Se configuró un experimento persistente con dos
+ejecuciones correspondientes a los modelos evaluados.
+
+Los modelos entrenados también se conservaron
+por separado en archivos Joblib.
 
 ### 6. Estructura del proyecto
 
-- datos/datos_ini/: datos originales.
-- datos/datos_limp/: datos procesados.
-- fuentes/entrena.ipynb: notebook principal.
-- fuentes/datos_prep.py: preparación de datos.
-- fuentes/train.py: entrenamiento y evaluación.
-- README.md: documentación y reproducibilidad.
-- CHANGELOG.md: historial de modificaciones.
+La estructura de la Actividad 5 es:
+
+Actividad5/
+- datos/
+  - datos_ini/
+    - seguros_original_v1.csv.zip
+  - datos_limp/
+    - seguros_limpio_v1.csv.zip
+- fuentes/
+  - entrena.ipynb
+  - datos_prep.py
+  - train.py
+- README.md
+- CHANGELOG.md
+
+**Descripción:**
+
+- datos_ini: versión original del dataset.
+- datos_limp: versión procesada del dataset.
+- entrena.ipynb: notebook principal de experimentación.
+- datos_prep.py: preparación y limpieza de datos.
+- train.py: entrenamiento y evaluación de modelos.
+- README.md: documentación general del proyecto.
+- CHANGELOG.md: historial de versiones y modificaciones.
 
 ### 7. Reproducibilidad
 
-El proyecto se desarrollará principalmente en
+El proyecto se desarrolló principalmente en
 Google Colab utilizando Python.
 
-Se documentarán las dependencias, configuraciones,
-semillas aleatorias y procedimientos necesarios
-para reproducir los experimentos.
+#### Herramientas utilizadas
 
-Las instrucciones de ejecución se completarán
-una vez validados los modelos y MLflow.
+- Python.
+- Google Colab.
+- Hugging Face Datasets.
+- Pandas.
+- Scikit-learn.
+- MLflow.
+- Joblib.
+- GitHub.
+
+#### Procedimiento general
+
+1. Obtener el dataset público desde Hugging Face.
+2. Preparar y limpiar los datos.
+3. Dividir los registros en entrenamiento y prueba.
+4. Transformar las consultas mediante TF-IDF.
+5. Entrenar los modelos de clasificación.
+6. Optimizar los hiperparámetros mediante GridSearchCV.
+7. Evaluar los modelos sobre el conjunto de prueba.
+8. Realizar la comparación estadística.
+9. Registrar métricas y artefactos en MLflow.
+10. Conservar los resultados y modelos entrenados.
+
+#### Archivos para reproducción
+
+El notebook principal se encuentra en:
+
+fuentes/entrena.ipynb
+
+Los scripts de preparación y entrenamiento están en:
+
+fuentes/datos_prep.py
+fuentes/train.py
+
+Los datasets publicados en GitHub deben descomprimirse
+antes de utilizarse como archivos CSV.
+
+**Consideración de ejecución:**
+
+Los scripts se desarrollaron utilizando rutas de
+Google Drive y archivos de configuración del entorno
+de trabajo.
+
+Para ejecutarlos en un entorno diferente es necesario
+adaptar dichas rutas y disponer de las dependencias
+y configuraciones correspondientes.
+
+#### Verificación realizada
+
+Se ejecutaron nuevamente los procesos de preparación
+y entrenamiento.
+
+Los resultados de evaluación coincidieron con las
+métricas obtenidas durante los experimentos originales.
+
+Esta comprobación permitió verificar la reproducibilidad
+de los resultados en el entorno utilizado.
 
 ### 8. Estado del proyecto
 
-En desarrollo.
+**Estado actual: entrenamiento y experimentación completados.**
 
-Actividad 5 – Semana 6.
+Se finalizaron:
+
+- Preparación y limpieza del dataset.
+- Entrenamiento de los dos modelos.
+- Optimización de hiperparámetros.
+- Evaluación y comparación estadística.
+- Registro de experimentos en MLflow.
+- Verificación de reproducibilidad.
+- Versionamiento de datos y código en GitHub.
+
+Pendiente:
+
+- Integración de evidencias visuales de MLflow.
+- Elaboración del reporte técnico final en PDF.
+- Revisión académica conforme a la rúbrica.
+
+**Actividad 5 – Semana 6.**
