@@ -161,17 +161,30 @@ por separado en archivos Joblib.
 La estructura de la Actividad 5 es:
 
 Actividad5/
-- datos/
-  - datos_ini/
-    - seguros_original_v1.csv.zip
-  - datos_limp/
-    - seguros_limpio_v1.csv.zip
-- fuentes/
-  - entrena.ipynb
-  - datos_prep.py
-  - train.py
-- README.md
-- CHANGELOG.md
+├── datos/
+│   ├── datos_ini/
+│   │   └── seguros_original_v1.csv.zip
+│   └── datos_limp/
+│       └── seguros_limpio_v1.csv.zip
+├── fuentes/
+│   ├── entrena.ipynb
+│   ├── datos_prep.py
+│   └── train.py
+├── resultados/
+│   ├── graficos/
+│   │   ├── Evidencia_011_comparacion_metricas.png
+│   │   ├── Evidencia_012_comparacion_tiempos.png
+│   │   ├── Evidencia_013_matriz_confusion_regresion_logistica.png
+│   │   └── Evidencia_014_matriz_confusion_bosque_aleatorio.png
+│   ├── evidencias_mlflow/
+│   │   └── 6 capturas de los experimentos
+│   ├── metricas_finales_v1.csv
+│   ├── gridsearch_logistico_v1.csv
+│   ├── gridsearch_random_forest_v1.csv
+│   ├── comparacion_estadistica_mcnemar.csv
+│   └── configuracion_modelos.json
+├── README.md
+└── CHANGELOG.md
 
 **Descripción:**
 
@@ -249,22 +262,37 @@ de los resultados en el entorno utilizado.
 
 ### 8. Estado del proyecto
 
-**Estado actual: entrenamiento y experimentación completados.**
+**Estado actual: desarrollo, experimentación y publicación
+de evidencias completados.**
 
 Se finalizaron:
 
 - Preparación y limpieza del dataset.
-- Entrenamiento de los dos modelos.
-- Optimización de hiperparámetros.
-- Evaluación y comparación estadística.
-- Registro de experimentos en MLflow.
-- Verificación de reproducibilidad.
+- Entrenamiento de regresión logística y Random Forest.
+- Optimización de hiperparámetros mediante GridSearchCV.
+- Evaluación de los modelos y comparación estadística
+  mediante la prueba de McNemar.
+- Registro persistente de experimentos en MLflow.
+- Verificación de reproducibilidad de los resultados.
 - Versionamiento de datos y código en GitHub.
+- Publicación de cuatro gráficas de evaluación.
+- Publicación de seis capturas de evidencia de MLflow.
+- Publicación de métricas finales, resultados de
+  optimización, comparación estadística y configuración
+  de los modelos.
 
-Pendiente:
+#### Evidencias disponibles
 
-- Integración de evidencias visuales de MLflow.
+Los resultados y evidencias pueden consultarse en:
+
+- [Gráficas de evaluación](resultados/graficos/)
+- [Evidencias de MLflow](resultados/evidencias_mlflow/)
+- [Resultados y configuración de modelos](resultados/)
+
+#### Actividades pendientes
+
 - Elaboración del reporte técnico final en PDF.
+- Integración de tablas, gráficas y capturas en el reporte.
 - Revisión académica conforme a la rúbrica.
 
 **Actividad 5 – Semana 6.**
