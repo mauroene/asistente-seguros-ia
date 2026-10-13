@@ -160,7 +160,7 @@ por separado en archivos Joblib.
 
 La estructura de la Actividad 5 es:
 
-Actividad5/
+```Actividad5/
 ├── datos/
 │   ├── datos_ini/
 │   │   └── seguros_original_v1.csv.zip
@@ -185,6 +185,7 @@ Actividad5/
 │   └── configuracion_modelos.json
 ├── README.md
 └── CHANGELOG.md
+```
 
 **Descripción:**
 
