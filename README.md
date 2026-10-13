@@ -34,11 +34,19 @@ Las dependencias necesarias se encuentran especificadas en el archivo `requireme
 
 ```text
 asistente-seguros-ia/
-├── data/          # Datos utilizados en el proyecto
-├── docs/          # Documentación técnica y análisis
-├── notebooks/     # Notebooks de Google Colab
-├── results/       # Resultados y métricas de evaluación
-├── src/           # Documentación para futura modularización del código
+├── Actividad4/
+│   ├── data/
+│   ├── docs/
+│   ├── notebooks/
+│   ├── results/
+│   ├── src/
+│   └── README.md
+├── Actividad5/
+│   ├── datos/
+│   ├── fuentes/
+│   ├── resultados/
+│   ├── README.md
+│   └── CHANGELOG.md
 ├── .gitignore
 ├── README.md
 └── requirements.txt
@@ -129,7 +137,7 @@ El proyecto se desarrolló mediante dos notebooks de Google Colab que permiten d
 ### Pasos de ejecución
 
 1. Descargar o clonar el repositorio de GitHub.
-2. Abrir Google Colab y cargar el primer notebook de la carpeta `notebooks/`.
+2. Abrir Google Colab y cargar el primer notebook de la carpeta `Actividad4/notebooks/`.
 3. Instalar las dependencias necesarias y preparar el entorno de ejecución.
 4. Cargar los datos de evaluación y los modelos preentrenados.
 5. Ejecutar las celdas del primer notebook para realizar las inferencias y generar los resultados.
@@ -146,12 +154,12 @@ El segundo notebook solicita el archivo `INSUMOS_COLAB_2_COMPARACION_MODELOS.zip
 
 ### Descarga de los paquetes
 
-- [Paquete de insumos](data/INSUMOS_COLAB_2_COMPARACION_MODELOS.zip): requerido en ambas modalidades.
-- [Paquete de evidencias originales](docs/evidencias_reporte_20261010T200713130418Z.zip): requerido adicionalmente para recuperar resultados sin GPU.
+- [Paquete de insumos](Actividad4/data/INSUMOS_COLAB_2_COMPARACION_MODELOS.zip): requerido en ambas modalidades.
+- [Paquete de evidencias originales](Actividad4/docs/evidencias_reporte_20261010T200713130418Z.zip): requerido adicionalmente para recuperar resultados sin GPU.
 
 Descarga los paquetes necesarios y súbelos completos, sin descomprimir, cuando el segundo notebook los solicite.
 
-Los archivos publicados por separado en `data/`, `results/` y `docs/` permiten consultar los datos y resultados, pero no sustituyen directamente los paquetes ZIP solicitados por el segundo notebook.
+Los archivos publicados por separado en `Actividad4/data/`, `Actividad4/results/` y `Actividad4/docs/` permiten consultar los datos y resultados, pero no sustituyen directamente los paquetes ZIP solicitados por el segundo notebook.
 
 ### Consideraciones de ejecución
 
