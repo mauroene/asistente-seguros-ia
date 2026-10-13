@@ -1,0 +1,2 @@
+﻿Observaciones,Ambos aciertan,Solo logística acierta,Solo Random Forest acierta,Ambos fallan,Casos discordantes,Prueba exacta,Valor p,Significativo (alpha=0.05),Interpretación
+7797,7708,38,18,33,56,False,0.011117560716106999,True,Se rechaza H0: existe una diferencia estadísticamente significativa entre las proporciones de acierto.
