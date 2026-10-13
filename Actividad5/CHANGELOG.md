@@ -211,3 +211,59 @@ Pendiente:
 - Incorporar las evidencias visuales de MLflow.
 - Completar el reporte técnico en PDF.
 - Realizar la revisión final conforme a la rúbrica.
+
+---
+
+## Versión 0.5.0 – 13 de octubre de 2026
+
+### Publicación de resultados de evaluación
+
+- Creación de la carpeta resultados.
+- Incorporación de los resultados finales de ambos modelos.
+- Publicación de los archivos:
+  - metricas_finales_v1.csv
+  - gridsearch_logistico_v1.csv
+  - gridsearch_random_forest_v1.csv
+  - comparacion_estadistica_mcnemar.csv
+  - configuracion_modelos.json
+
+### Visualización de resultados
+
+- Creación de la carpeta resultados/graficos.
+- Publicación de cuatro gráficas:
+  - Comparación de métricas de evaluación.
+  - Comparación de tiempos de inferencia.
+  - Matriz de confusión de regresión logística.
+  - Matriz de confusión de Random Forest.
+
+### Evidencias de MLflow
+
+- Creación de la carpeta resultados/evidencias_mlflow.
+- Incorporación de seis capturas de pantalla.
+- Documentación de métricas e hiperparámetros
+  de regresión logística y Random Forest.
+- Incorporación de evidencias de los artefactos
+  registrados en MLflow.
+- Incorporación de capturas de los resultados
+  comparativos almacenados como CSV.
+
+### Documentación del repositorio
+
+- Actualización del archivo README.md.
+- Incorporación de la estructura completa
+  de archivos y carpetas.
+- Inclusión de enlaces a gráficas, evidencias
+  de MLflow y resultados.
+- Actualización del estado general del proyecto.
+
+### Estado
+
+Se completó la publicación en GitHub de los
+datos, el código fuente, los resultados y las
+evidencias de experimentación.
+
+Pendiente:
+
+- Elaborar el reporte técnico final en PDF.
+- Integrar tablas, gráficas y evidencias.
+- Revisar el cumplimiento de la rúbrica.
