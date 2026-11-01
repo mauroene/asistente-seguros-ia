@@ -1,5 +1,45 @@
 # Asistente de Seguros con Inteligencia Artificial
 
+## Fase II — aplicación con API y Docker
+
+La [carpeta FaseII](FaseII/README.md) integra el modelo de regresión
+logística de la Actividad 5 con FastAPI, Streamlit y Docker Compose.
+
+La ejecución local fue comprobada mediante pruebas de clasificación,
+validación de entradas y comunicación entre frontend y backend.
+
+### Ejecución
+
+Con Docker Desktop o Docker Engine encendido, desde la raíz del repositorio:
+
+    cd FaseII
+    docker compose up --build
+
+Abrir la interfaz en http://localhost:8501 y la documentación de la API
+en http://localhost:8000/docs.
+
+### Documentación
+
+- [Validación y pruebas](FaseII/documentacion/Documento_Validacion_Pruebas_FaseII.pdf).
+- [Manual de despliegue en la nube](FaseII/documentacion/Manual_Despliegue_Nube_FaseII.pdf).
+- [Evidencias de ejecución](FaseII/evidencias/).
+
+El despliegue en nube está documentado como propuesta; la ejecución
+comprobada corresponde al entorno local.
+
+### Idioma y continuidad
+
+El modelo de esta entrega fue entrenado con las consultas originales
+en inglés de Bitext Insurance. La muestra traducida de la Actividad 4
+no se utilizó para entrenar este clasificador.
+
+Para la Fase III y actividades posteriores se plantea preparar y evaluar
+un nuevo entrenamiento en español e incorporar información del documento
+específico de seguros de BBVA.
+
+Las secciones siguientes conservan la documentación de las actividades
+anteriores.
+
 ## Descripción del proyecto
 
 Este proyecto desarrolla un prototipo de inteligencia artificial orientado a la clasificación automática de consultas relacionadas con seguros de vida.
