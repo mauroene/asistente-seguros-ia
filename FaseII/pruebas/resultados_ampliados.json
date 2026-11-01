@@ -1,0 +1,412 @@
+{
+  "fecha": "2026-11-01",
+  "metodo": "FastAPI TestClient local; sin conexión de red ni Docker",
+  "sha256_modelo": "1f92fb768c560fa121f9b44b2c056cd3952647e23a40f92851ed914935e8c1dd",
+  "nota": "Expectativas manuales; conjunto ilustrativo, no estimación de accuracy general.",
+  "casos": [
+    {
+      "id": "C01",
+      "texto": "I need information about my life insurance",
+      "esperado": "LIFE_INSURANCE",
+      "http": 200,
+      "observado": "LIFE_INSURANCE",
+      "probabilidad": 0.9980929646288605,
+      "terminos": 6,
+      "coincide": true,
+      "respuesta": {
+        "categoria": "LIFE_INSURANCE",
+        "probabilidad": 0.9980929646288605,
+        "terminos_reconocidos": 6
+      }
+    },
+    {
+      "id": "C02",
+      "texto": "I need information about my auto insurance",
+      "esperado": "AUTO_INSURANCE",
+      "http": 200,
+      "observado": "AUTO_INSURANCE",
+      "probabilidad": 0.9988473340050589,
+      "terminos": 6,
+      "coincide": true,
+      "respuesta": {
+        "categoria": "AUTO_INSURANCE",
+        "probabilidad": 0.9988473340050589,
+        "terminos_reconocidos": 6
+      }
+    },
+    {
+      "id": "C03",
+      "texto": "I need information about my home insurance",
+      "esperado": "HOME_INSURANCE",
+      "http": 200,
+      "observado": "HOME_INSURANCE",
+      "probabilidad": 0.9987773022462548,
+      "terminos": 6,
+      "coincide": true,
+      "respuesta": {
+        "categoria": "HOME_INSURANCE",
+        "probabilidad": 0.9987773022462548,
+        "terminos_reconocidos": 6
+      }
+    },
+    {
+      "id": "C04",
+      "texto": "I need information about my health insurance",
+      "esperado": "HEALTH_INSURANCE",
+      "http": 200,
+      "observado": "HEALTH_INSURANCE",
+      "probabilidad": 0.998655547076412,
+      "terminos": 6,
+      "coincide": true,
+      "respuesta": {
+        "categoria": "HEALTH_INSURANCE",
+        "probabilidad": 0.998655547076412,
+        "terminos_reconocidos": 6
+      }
+    },
+    {
+      "id": "C05",
+      "texto": "I need information about my pet insurance",
+      "esperado": "PET_INSURANCE",
+      "http": 200,
+      "observado": "PET_INSURANCE",
+      "probabilidad": 0.9985413652146579,
+      "terminos": 6,
+      "coincide": true,
+      "respuesta": {
+        "categoria": "PET_INSURANCE",
+        "probabilidad": 0.9985413652146579,
+        "terminos_reconocidos": 6
+      }
+    },
+    {
+      "id": "C06",
+      "texto": "I need information about my travel insurance",
+      "esperado": "TRAVEL_INSURANCE",
+      "http": 200,
+      "observado": "TRAVEL_INSURANCE",
+      "probabilidad": 0.998547925775263,
+      "terminos": 6,
+      "coincide": true,
+      "respuesta": {
+        "categoria": "TRAVEL_INSURANCE",
+        "probabilidad": 0.998547925775263,
+        "terminos_reconocidos": 6
+      }
+    },
+    {
+      "id": "C07",
+      "texto": "I want to file an insurance claim",
+      "esperado": "CLAIMS",
+      "http": 200,
+      "observado": "CLAIMS",
+      "probabilidad": 0.9948265970045785,
+      "terminos": 6,
+      "coincide": true,
+      "respuesta": {
+        "categoria": "CLAIMS",
+        "probabilidad": 0.9948265970045785,
+        "terminos_reconocidos": 6
+      }
+    },
+    {
+      "id": "C08",
+      "texto": "How can I pay my insurance premium?",
+      "esperado": "PAYMENT",
+      "http": 200,
+      "observado": "PAYMENT",
+      "probabilidad": 0.9221523877803599,
+      "terminos": 5,
+      "coincide": true,
+      "respuesta": {
+        "categoria": "PAYMENT",
+        "probabilidad": 0.9221523877803599,
+        "terminos_reconocidos": 5
+      }
+    },
+    {
+      "id": "C09",
+      "texto": "I want to renew my insurance policy",
+      "esperado": "RENEW",
+      "http": 200,
+      "observado": "RENEW",
+      "probabilidad": 0.9893022746005724,
+      "terminos": 6,
+      "coincide": true,
+      "respuesta": {
+        "categoria": "RENEW",
+        "probabilidad": 0.9893022746005724,
+        "terminos_reconocidos": 6
+      }
+    },
+    {
+      "id": "C10",
+      "texto": "I would like to get an insurance quote",
+      "esperado": "QUOTE",
+      "http": 200,
+      "observado": "QUOTE",
+      "probabilidad": 0.9908288246595259,
+      "terminos": 7,
+      "coincide": true,
+      "respuesta": {
+        "categoria": "QUOTE",
+        "probabilidad": 0.9908288246595259,
+        "terminos_reconocidos": 7
+      }
+    },
+    {
+      "id": "C11",
+      "texto": "How can I contact customer service?",
+      "esperado": "CONTACT",
+      "http": 200,
+      "observado": "CONTACT",
+      "probabilidad": 0.9963966313187342,
+      "terminos": 5,
+      "coincide": true,
+      "respuesta": {
+        "categoria": "CONTACT",
+        "probabilidad": 0.9963966313187342,
+        "terminos_reconocidos": 5
+      }
+    },
+    {
+      "id": "C12",
+      "texto": "I want to make a complaint",
+      "esperado": "COMPLAINTS",
+      "http": 200,
+      "observado": "COMPLAINTS",
+      "probabilidad": 0.9653158960026523,
+      "terminos": 4,
+      "coincide": true,
+      "respuesta": {
+        "categoria": "COMPLAINTS",
+        "probabilidad": 0.9653158960026523,
+        "terminos_reconocidos": 4
+      }
+    },
+    {
+      "id": "E01",
+      "texto": "",
+      "esperado": "RECHAZO",
+      "http": 422,
+      "observado": "RECHAZO",
+      "probabilidad": null,
+      "terminos": null,
+      "coincide": true,
+      "respuesta": {
+        "detail": [
+          {
+            "type": "string_too_short",
+            "loc": [
+              "body",
+              "texto"
+            ],
+            "msg": "String should have at least 1 character",
+            "input": "",
+            "ctx": {
+              "min_length": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "E02",
+      "texto": "   ",
+      "esperado": "RECHAZO",
+      "http": 422,
+      "observado": "RECHAZO",
+      "probabilidad": null,
+      "terminos": null,
+      "coincide": true,
+      "respuesta": {
+        "detail": [
+          {
+            "type": "value_error",
+            "loc": [
+              "body",
+              "texto"
+            ],
+            "msg": "Value error, Escribe una consulta con contenido.",
+            "input": "   ",
+            "ctx": {
+              "error": {}
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "E03",
+      "texto": "zzzzqwerty123",
+      "esperado": "RECHAZO",
+      "http": 422,
+      "observado": "RECHAZO",
+      "probabilidad": null,
+      "terminos": null,
+      "coincide": true,
+      "respuesta": {
+        "detail": "La consulta no contiene términos reconocidos por el modelo."
+      }
+    },
+    {
+      "id": "E04",
+      "texto": "!!! 🦄",
+      "esperado": "RECHAZO",
+      "http": 422,
+      "observado": "RECHAZO",
+      "probabilidad": null,
+      "terminos": null,
+      "coincide": true,
+      "respuesta": {
+        "detail": "La consulta no contiene términos reconocidos por el modelo."
+      }
+    },
+    {
+      "id": "E05",
+      "texto": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "esperado": "RECHAZO",
+      "http": 422,
+      "observado": "RECHAZO",
+      "probabilidad": null,
+      "terminos": null,
+      "coincide": true,
+      "respuesta": {
+        "detail": [
+          {
+            "type": "string_too_long",
+            "loc": [
+              "body",
+              "texto"
+            ],
+            "msg": "String should have at most 2000 characters",
+            "input": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+            "ctx": {
+              "max_length": 2000
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "E06",
+      "texto": "  I need information about my life insurance  ",
+      "esperado": "LIFE_INSURANCE",
+      "http": 200,
+      "observado": "LIFE_INSURANCE",
+      "probabilidad": 0.9980929646288605,
+      "terminos": 6,
+      "coincide": true,
+      "respuesta": {
+        "categoria": "LIFE_INSURANCE",
+        "probabilidad": 0.9980929646288605,
+        "terminos_reconocidos": 6
+      }
+    },
+    {
+      "id": "E07",
+      "texto": "I NEED INFORMATION ABOUT MY LIFE INSURANCE",
+      "esperado": "LIFE_INSURANCE",
+      "http": 200,
+      "observado": "LIFE_INSURANCE",
+      "probabilidad": 0.9980929646288605,
+      "terminos": 6,
+      "coincide": true,
+      "respuesta": {
+        "categoria": "LIFE_INSURANCE",
+        "probabilidad": 0.9980929646288605,
+        "terminos_reconocidos": 6
+      }
+    },
+    {
+      "id": "E08",
+      "texto": "I need informtion about my life insuranc",
+      "esperado": "LIFE_INSURANCE",
+      "http": 200,
+      "observado": "LIFE_INSURANCE",
+      "probabilidad": 0.7609701579763725,
+      "terminos": 6,
+      "coincide": true,
+      "respuesta": {
+        "categoria": "LIFE_INSURANCE",
+        "probabilidad": 0.7609701579763725,
+        "terminos_reconocidos": 6
+      }
+    },
+    {
+      "id": "D01",
+      "texto": "¿Qué cubre mi seguro de vida?",
+      "esperado": "EXPLORATORIO",
+      "http": 200,
+      "observado": "CLAIMS",
+      "probabilidad": 0.23606493236096762,
+      "terminos": 2,
+      "coincide": null,
+      "respuesta": {
+        "categoria": "CLAIMS",
+        "probabilidad": 0.23606493236096762,
+        "terminos_reconocidos": 2
+      }
+    },
+    {
+      "id": "D02",
+      "texto": "insurance",
+      "esperado": "EXPLORATORIO",
+      "http": 200,
+      "observado": "ENROLLMENT",
+      "probabilidad": 0.46139170573101457,
+      "terminos": 1,
+      "coincide": null,
+      "respuesta": {
+        "categoria": "ENROLLMENT",
+        "probabilidad": 0.46139170573101457,
+        "terminos_reconocidos": 1
+      }
+    },
+    {
+      "id": "D03",
+      "texto": "I need life insurance and auto insurance",
+      "esperado": "EXPLORATORIO",
+      "http": 200,
+      "observado": "AUTO_INSURANCE",
+      "probabilidad": 0.56324050575068,
+      "terminos": 4,
+      "coincide": null,
+      "respuesta": {
+        "categoria": "AUTO_INSURANCE",
+        "probabilidad": 0.56324050575068,
+        "terminos_reconocidos": 4
+      }
+    },
+    {
+      "id": "D04",
+      "texto": "I like pizza and life insurance",
+      "esperado": "EXPLORATORIO",
+      "http": 200,
+      "observado": "LIFE_INSURANCE",
+      "probabilidad": 0.9972402249274356,
+      "terminos": 3,
+      "coincide": null,
+      "respuesta": {
+        "categoria": "LIFE_INSURANCE",
+        "probabilidad": 0.9972402249274356,
+        "terminos_reconocidos": 3
+      }
+    },
+    {
+      "id": "D05",
+      "texto": "What does my insurance cover?",
+      "esperado": "COVERAGE",
+      "http": 200,
+      "observado": "GENERAL_INFORMATION",
+      "probabilidad": 0.2705473098883897,
+      "terminos": 5,
+      "coincide": false,
+      "respuesta": {
+        "categoria": "GENERAL_INFORMATION",
+        "probabilidad": 0.2705473098883897,
+        "terminos_reconocidos": 5
+      }
+    }
+  ]
+}
