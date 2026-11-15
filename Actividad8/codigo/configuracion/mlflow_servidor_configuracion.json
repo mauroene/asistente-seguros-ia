@@ -1,0 +1,26 @@
+{
+  "puerto": 47341,
+  "uri": "sqlite:////content/actividad8_mlflow/act8_20261115T183737Z_2601a7/mlflow.db",
+  "comando": [
+    "/usr/bin/python3",
+    "-m",
+    "mlflow",
+    "server",
+    "--backend-store-uri",
+    "sqlite:////content/actividad8_mlflow/act8_20261115T183737Z_2601a7/mlflow.db",
+    "--default-artifact-root",
+    "file:///content/actividad8_mlflow/act8_20261115T183737Z_2601a7/artefactos",
+    "--no-serve-artifacts",
+    "--host",
+    "127.0.0.1",
+    "--port",
+    "47341",
+    "--workers",
+    "1",
+    "--allowed-hosts",
+    "127.0.0.1:*,localhost:*,*.r.colab.dev,*.googleusercontent.com,47341-m-s-usc1b7-2cr94o20wpha6-b.us-central1.prod.r.colab.dev",
+    "--cors-allowed-origins",
+    "https://colab.research.google.com,https://47341-m-s-usc1b7-2cr94o20wpha6-b.us-central1.prod.r.colab.dev"
+  ],
+  "acceso": "Proxy temporal de Colab"
+}

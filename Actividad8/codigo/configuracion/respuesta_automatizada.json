@@ -1,0 +1,11 @@
+{
+  "acciones": [
+    "RETIRAR_RETARDO",
+    "ROLLBACK_V3_ESTABLE"
+  ],
+  "condicion": "Apertura del escenario y tipo de una inyección confirmada.",
+  "maximo_acciones_por_ensayo": 1,
+  "modelo_original_modificado": false,
+  "validacion_recuperacion": "Se realizará con consultas posteriores a la acción.",
+  "limite": "Laboratorio controlado; otros errores requieren revisión del operador."
+}

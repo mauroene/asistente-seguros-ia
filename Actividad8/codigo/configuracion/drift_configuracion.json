@@ -1,0 +1,18 @@
+{
+  "metodo": "Máximo KS de dos señales textuales",
+  "senales": [
+    "longitud_caracteres",
+    "fraccion_terminos_desconocidos"
+  ],
+  "consultas_referencia": 448,
+  "ventana_consultas": 40,
+  "umbral": 0.22278124999999993,
+  "calibracion": {
+    "remuestreos": 300,
+    "cuantil": 0.99,
+    "semilla": 43
+  },
+  "sha256_datos_referencia": "a767d4a1f511699b79a111c890a1d402fd1342d3f5019cde49a05f0e627e8fe7",
+  "sha256_modelo": "073f19153c965c29db2c5061c1f9b7980a0a36b58d6cdbc6576b80b9c644456c",
+  "limitacion": "Dos señales no detectan todos los cambios semánticos. Referencia sintética y balanceada; umbral empírico, no garantía de falsas alarmas ni de calidad en producción."
+}

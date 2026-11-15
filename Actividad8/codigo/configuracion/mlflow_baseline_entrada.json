@@ -1,0 +1,57 @@
+{
+  "uri": "sqlite:////content/actividad8_mlflow/act8_20261115T183737Z_2601a7/mlflow.db",
+  "experimento": "VidaSegura_Actividad8_act8_20261115T183737Z_2601a7",
+  "artefactos": "/content/actividad8_mlflow/act8_20261115T183737Z_2601a7/artefactos",
+  "nombre_run": "baseline_255ce402",
+  "etiquetas": {
+    "tipo": "baseline_normal",
+    "actividad8_id": "act8_20261115T183737Z_2601a7",
+    "alcance": "laboratorio_colab",
+    "calidad": "diagnostico_conocido_no_ciego"
+  },
+  "parametros": {
+    "modelo": "regresion_logistica_C4",
+    "sha256_modelo": "073f19153c965c29db2c5061c1f9b7980a0a36b58d6cdbc6576b80b9c644456c",
+    "slo_exito": 0.99,
+    "slo_latencia": 0.95,
+    "limite_latencia_ms": 200.0,
+    "objetivo_exactitud": 0.8
+  },
+  "metricas": {
+    "operacion_solicitudes": 100,
+    "operacion_exito_tecnico": 1.0,
+    "operacion_latencia_favorable": 1.0,
+    "operacion_latencia_p95_ms": 17.727373349907786,
+    "operacion_fallos_internos": 0,
+    "diagnostico_preguntas": 74,
+    "diagnostico_aciertos": 65,
+    "diagnostico_exactitud": 0.8783783783783784,
+    "diagnostico_f1_macro": 0.8761770737002935
+  },
+  "archivos": [
+    {
+      "ruta": "/content/drive/MyDrive/Master IA/5-Gestión de Proyectos de Inteligencia Artificial/asistente-seguros-ia/Actividad8/resultados/act8_20261115T183737Z_2601a7/configuracion/politica_observabilidad.json",
+      "grupo": "configuracion"
+    },
+    {
+      "ruta": "/content/drive/MyDrive/Master IA/5-Gestión de Proyectos de Inteligencia Artificial/asistente-seguros-ia/Actividad8/resultados/act8_20261115T183737Z_2601a7/configuracion/contexto_ejecucion.json",
+      "grupo": "configuracion"
+    },
+    {
+      "ruta": "/content/drive/MyDrive/Master IA/5-Gestión de Proyectos de Inteligencia Artificial/asistente-seguros-ia/Actividad8/resultados/act8_20261115T183737Z_2601a7/metricas/baseline_255ce402_resumen.json",
+      "grupo": "metricas"
+    },
+    {
+      "ruta": "/content/drive/MyDrive/Master IA/5-Gestión de Proyectos de Inteligencia Artificial/asistente-seguros-ia/Actividad8/resultados/act8_20261115T183737Z_2601a7/evidencias/baseline_255ce402_predicciones74.csv",
+      "grupo": "evidencias"
+    },
+    {
+      "ruta": "/content/drive/MyDrive/Master IA/5-Gestión de Proyectos de Inteligencia Artificial/asistente-seguros-ia/Actividad8/resultados/act8_20261115T183737Z_2601a7/logs/solicitudes.jsonl",
+      "grupo": "logs"
+    },
+    {
+      "ruta": "/content/drive/MyDrive/Master IA/5-Gestión de Proyectos de Inteligencia Artificial/asistente-seguros-ia/Actividad8/resultados/act8_20261115T183737Z_2601a7/trazas/etapas.jsonl",
+      "grupo": "trazas"
+    }
+  ]
+}

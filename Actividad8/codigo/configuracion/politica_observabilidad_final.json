@@ -1,0 +1,64 @@
+{
+  "version_politica": "1.1",
+  "id_ejecucion": "act8_20261115T183737Z_2601a7",
+  "fecha_utc": "2026-11-15T18:40:25.702701+00:00",
+  "alcance": "Laboratorio controlado en Google Colab",
+  "estado": "Implementada y evaluada en laboratorio; incidentes y recuperación documentados.",
+  "operacion": {
+    "periodo_solicitudes_validas": 100,
+    "ventana_reciente_solicitudes": 20,
+    "solicitud_valida": "Texto no vacío, de hasta 2000 caracteres. Entradas inválidas se contabilizan por separado.",
+    "slo_exito_tecnico": 0.99,
+    "evento_exitoso": "Solicitud válida atendida sin excepción interna, incluida una respuesta controlada sin clasificación.",
+    "slo_latencia": 0.95,
+    "limite_latencia_ms": 200.0,
+    "evento_latencia_favorable": "Solicitud válida sin fallo interno y con tiempo de procesamiento inferior a 200 ms.",
+    "alcance_latencia": "Validación, transformación y predicción. Excluye carga inicial, escritura en Drive, registro en MLflow y tiempo de red."
+  },
+  "calidad": {
+    "indicador": "Exactitud",
+    "objetivo": 0.8,
+    "conjunto": "referencia_humana_74.csv",
+    "numero_consultas": 74,
+    "evento_favorable": "Categoría predicha igual a categoría de referencia.",
+    "limitacion": "Conjunto diagnóstico conocido durante el desarrollo; no representa una prueba externa o ciega."
+  },
+  "drift": {
+    "referencia": "desarrollo_v3.csv",
+    "ventana_consultas": 40,
+    "estado_umbral": "Calibrado empíricamente en referencia sintética",
+    "interpretacion": "Cambio en las entradas; requiere diagnóstico. No demuestra automáticamente pérdida de calidad.",
+    "umbral_ks_maximo": 0.22278124999999993,
+    "metodo": "Máximo KS de dos señales textuales"
+  },
+  "logs": {
+    "campos": [
+      "timestamp_utc",
+      "request_id",
+      "id_ejecucion",
+      "version_modelo",
+      "estado",
+      "categoria",
+      "puntaje_no_calibrado",
+      "latencia_ms",
+      "tipo_error"
+    ],
+    "guardar_texto_completo_por_defecto": false
+  },
+  "trazas": {
+    "correlacion": "request_id",
+    "etapas": [
+      "validacion",
+      "transformacion",
+      "prediccion"
+    ],
+    "campos": [
+      "request_id",
+      "etapa",
+      "inicio_utc",
+      "duracion_ms",
+      "estado"
+    ]
+  },
+  "referencia_metodologica": "https://sre.google/workbook/alerting-on-slos/"
+}

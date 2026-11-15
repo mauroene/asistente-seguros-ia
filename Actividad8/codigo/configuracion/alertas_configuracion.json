@@ -1,0 +1,77 @@
+{
+  "fecha_preparacion_utc": "2026-11-15T19:48:06.512854+00:00",
+  "reglas": {
+    "latencia": {
+      "id": "AL_LATENCIA",
+      "prioridad": "P2",
+      "tipo": "operacion",
+      "indicador": "latencia_favorable",
+      "slo": 0.95,
+      "ventana_corta": 20,
+      "ventana_larga": 100,
+      "minimo": 20,
+      "burn_rate_corto": 2.0,
+      "burn_rate_largo": 2.0,
+      "runbook": "RB01_LATENCIA.md",
+      "accion_laboratorio": "Retirar retardo artificial confirmado."
+    },
+    "fallos_internos": {
+      "id": "AL_FALLOS",
+      "prioridad": "P1",
+      "tipo": "operacion",
+      "indicador": "exito_tecnico",
+      "slo": 0.99,
+      "ventana_corta": 20,
+      "ventana_larga": 100,
+      "minimo": 20,
+      "burn_rate_corto": 2.0,
+      "burn_rate_largo": 2.0,
+      "runbook": "RB03_FALLOS.md",
+      "accion_laboratorio": "Desactivar fallo artificial confirmado."
+    },
+    "calidad": {
+      "id": "AL_CALIDAD",
+      "prioridad": "P2",
+      "tipo": "calidad",
+      "indicador": "exactitud",
+      "slo": 0.8,
+      "minimo": 74,
+      "ventana": 74,
+      "runbook": "RB02_CALIDAD.md",
+      "accion_laboratorio": "Restaurar V3 estable ante una variante degradada confirmada."
+    },
+    "drift": {
+      "id": "AL_DRIFT",
+      "prioridad": "P3",
+      "tipo": "drift",
+      "indicador": "ks_maximo",
+      "minimo": 40,
+      "umbral": 0.22278124999999993,
+      "runbook": "RB04_DRIFT.md",
+      "accion_laboratorio": "Registrar revisión; no cambiar automáticamente el modelo."
+    }
+  },
+  "control_ruido": {
+    "deduplicacion": [
+      "escenario",
+      "id_regla"
+    ],
+    "repetir_alerta_mientras_activa": false,
+    "evaluaciones_sanas_para_cerrar": 2,
+    "evaluacion_nueva": "Debe incorporar una solicitud nueva, no releer los mismos datos.",
+    "cierre_operativo": "Ventana larga dentro del SLO y sin condición activa.",
+    "muestra_insuficiente": "No evaluar ni resolver como si estuviera sano.",
+    "reapertura": "Permitir un nuevo episodio después del cierre."
+  },
+  "formula_presupuesto": "N * (1 - SLO)",
+  "formula_burn_rate": "Proporción de eventos desfavorables / (1 - SLO)",
+  "ventanas_incompletas": "Con 20 a 99 solicitudes, la ventana larga es provisional.",
+  "denominador_operacion": "Solo solicitudes válidas.",
+  "sha256_runbooks": {
+    "RB01_LATENCIA.md": "5f2e03f48a500f198a9619d582e1cb4cdb61485d5405a033848b02f8971474e0",
+    "RB02_CALIDAD.md": "ef5b172de0db29074fe38971c7ed0c61d52a5bad3172a419e3f872d2f66e7d08",
+    "RB03_FALLOS.md": "f5f64cd63995825afde655d4114c6851a57f8102439618d3562bb0ab432963fc",
+    "RB04_DRIFT.md": "a386072faa17dbed232781c6e9495e6cd12b650c6042dae241da3fb166b83a65"
+  },
+  "estado": "Reglas y procedimientos preparados; motor pendiente de activar."
+}

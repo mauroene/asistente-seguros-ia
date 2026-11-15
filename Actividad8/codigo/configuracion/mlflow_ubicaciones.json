@@ -1,0 +1,7 @@
+{
+  "uri_local": "sqlite:////content/actividad8_mlflow/act8_20261115T183737Z_2601a7/mlflow.db",
+  "ruta_local": "/content/actividad8_mlflow/act8_20261115T183737Z_2601a7",
+  "experimento": "VidaSegura_Actividad8_act8_20261115T183737Z_2601a7",
+  "run_id_baseline": "de754e26b1164e6b8aa3ce7ec63d76fb",
+  "respaldo_drive": "/content/drive/MyDrive/Master IA/5-Gestión de Proyectos de Inteligencia Artificial/asistente-seguros-ia/Actividad8/resultados/act8_20261115T183737Z_2601a7/mlflow/checkpoint_20261115T191658870218Z.zip"
+}
