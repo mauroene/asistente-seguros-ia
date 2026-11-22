@@ -1,0 +1,9 @@
+{
+  "revision": "vidasegura-es-v3-1",
+  "paquete": "Actividad8/Modelo_VidaSegura_ES_V3_Base_Actividad8.zip",
+  "paquete_sha256": "ca1c7873d96d75563c537ef220a814057c05b69b7b7a4aff74704610599e8542",
+  "modelo_sha256": "073f19153c965c29db2c5061c1f9b7980a0a36b58d6cdbc6576b80b9c644456c",
+  "modelo_run_id": "es_v3_20261111T023400Z_13c684",
+  "modelo_version": "3",
+  "categorias": ["CLAIMS", "CONTACT", "COVERAGE", "ENROLLMENT", "LIFE_INSURANCE", "PAYMENT", "QUOTE"]
+}
