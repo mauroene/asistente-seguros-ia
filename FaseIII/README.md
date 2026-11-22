@@ -70,12 +70,32 @@ Cuando exista una revisión estable anterior, puede hacerse la demostración en 
 de esa revisión. Este incremento inicial todavía carece de un ensayo de reversión entre dos
 revisiones publicadas.
 
+## Prueba de carga local
+
+```sh
+python FaseIII/medir_carga.py --evidencia ../carga-vidasegura.json
+```
+
+El ensayo comprueba la revisión por HTTP, calienta el servicio con 14 solicitudes y ejecuta
+tres rondas de 140 solicitudes para cada nivel de concurrencia (1, 4 y 8 clientes). Usa una
+consulta histórica por categoría y comprueba la respuesta esperada. El JSON conserva p50,
+p95 por rango más cercano, éxitos por segundo y fallos por tipo para cada ronda. Los percentiles
+incluyen el trayecto de ida y vuelta por HTTP en localhost para solicitudes exitosas. Los
+fallos se reportan por separado. La evidencia omite los textos de las consultas.
+
+El servidor de referencia procesa las solicitudes en un solo hilo. El ensayo describe el
+comportamiento local de esta revisión con un conjunto fijo y sirve para comparar futuras
+ejecuciones en el mismo entorno. El objetivo de p95 de 200 ms de Actividad 9 corresponde al
+piloto de nube. El piloto requiere repetir el ensayo con red, concurrencia sostenida y arranques
+en frío. Para investigar una subida de latencia, fallos o respuestas de clasificación inesperadas,
+consultar respectivamente los runbooks RB01, RB03 y RB02 de `Actividad8/codigo/runbooks/`.
+
 ## Evidencia restante para la entrega
 
 - **Antes del 28 de noviembre** · Acordar la publicación de la rama y capturar el enlace e
   identificador de una ejecución real de GitHub Actions cuando esté autorizada.
-- **Sábado 28** · Incorporar evidencia operativa de latencia HTTP p50/p95 y fallos con un
-  protocolo de carga; vincular alertas y runbooks de Actividad 8. Usar las cifras de Actividad 9
-  como referencia de inferencia sin red y su prueba lingüística como hallazgo exploratorio.
+- **Sábado 28** · Integrar la evidencia de carga local y acordar el ensayo de alertas y
+  recuperación de Fase III. Usar las cifras de Actividad 9 como referencia de inferencia sin red
+  y su prueba lingüística como hallazgo exploratorio.
 - **Domingo 29** · Cerrar el portfolio, la presentación y la práctica de entrevista con los
   cuatro criterios de la rúbrica. Adjuntar y verificar los archivos finales de entrega.
